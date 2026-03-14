@@ -30,6 +30,8 @@ const client = algoliasearch(ALGOLIA_APP_ID, ALGOLIA_API_KEY);
 const suggestionIndex = client.initIndex(ALGOLIA_SUGGESTION_INDEX);
 const productIndex = client.initIndex(ALGOLIA_INDEX_NAME);  // for live fallback
 
+const path = require('path');
+
 // ─── Synonym Map ─────────────────────────────────────────────────────────────
 // Built from synonyms.json. Each alternate term maps to the first (canonical) term.
 // E.g. "nappies" → "diaper", "pram" → "stroller"
@@ -37,7 +39,7 @@ const productIndex = client.initIndex(ALGOLIA_INDEX_NAME);  // for live fallback
 const synonymMap = {};   // alternate → canonical
 const canonicalTerms = new Set(); // canonical terms (first in each synonym group)
 try {
-    const rawSynonyms = JSON.parse(fs.readFileSync('./synonyms.json', 'utf8'));
+    const rawSynonyms = JSON.parse(fs.readFileSync(path.join(__dirname, 'synonyms.json'), 'utf8'));
     rawSynonyms.forEach(group => {
         if (!group.synonyms || group.synonyms.length < 2) return;
         const canonical = group.synonyms[0].toLowerCase();
@@ -48,13 +50,13 @@ try {
         });
     });
 } catch (err) {
-    console.warn('[ACS] Could not load synonyms.json:', err.message);
+    console.error('[ACS] Could not load synonyms.json:', err.message);
 }
 
 // Load brand names so we never synonym-substitute a brand
 const brandNames = new Set();
 try {
-    const dict = JSON.parse(fs.readFileSync('./brand_dictionary.json', 'utf8'));
+    const dict = JSON.parse(fs.readFileSync(path.join(__dirname, 'brand_dictionary.json'), 'utf8'));
     dict.brands.forEach(b => {
         brandNames.add(b.normalized);
         brandNames.add(b.compact);
@@ -67,7 +69,7 @@ try {
 // e.g. "mamypoko" → "MamyPokoPants", "miarcus" → "Mi Arcus"
 const compactBrandLookup = {};  // compact → original brand name
 try {
-    const dict = JSON.parse(fs.readFileSync('./brand_dictionary.json', 'utf8'));
+    const dict = JSON.parse(fs.readFileSync(path.join(__dirname, 'brand_dictionary.json'), 'utf8'));
     dict.brands.forEach(b => {
         if (b.compact) compactBrandLookup[b.compact] = b.original;
         if (b.normalized) compactBrandLookup[b.normalized] = b.original;
