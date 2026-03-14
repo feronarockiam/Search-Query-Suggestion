@@ -1,0 +1,4373 @@
+{
+  "timestamp": "2026-03-14T19:14:47.006Z",
+  "total_brands": 397,
+  "brands": [
+    {
+      "original": "SafeoKid",
+      "normalized": "safeokid",
+      "compact": "safeokid",
+      "prefixes": [
+        "saf",
+        "safeo",
+        "safeoki"
+      ],
+      "phonetic": "S123"
+    },
+    {
+      "original": "JusCubs",
+      "normalized": "juscubs",
+      "compact": "juscubs",
+      "prefixes": [
+        "jus",
+        "juscu",
+        "juscubs"
+      ],
+      "phonetic": "J212"
+    },
+    {
+      "original": "Ollypop",
+      "normalized": "ollypop",
+      "compact": "ollypop",
+      "prefixes": [
+        "oll",
+        "ollyp",
+        "ollypop"
+      ],
+      "phonetic": "O410"
+    },
+    {
+      "original": "Amazing Finds",
+      "normalized": "amazing finds",
+      "compact": "amazingfinds",
+      "prefixes": [
+        "ama",
+        "amazi",
+        "amazing"
+      ],
+      "phonetic": "A525"
+    },
+    {
+      "original": "WonderLab",
+      "normalized": "wonderlab",
+      "compact": "wonderlab",
+      "prefixes": [
+        "won",
+        "wonde",
+        "wonderl"
+      ],
+      "phonetic": "W536"
+    },
+    {
+      "original": "R for Rabbit",
+      "normalized": "r for rabbit",
+      "compact": "rforrabbit",
+      "prefixes": [
+        "r f",
+        "r for",
+        "r for r"
+      ],
+      "phonetic": "R166"
+    },
+    {
+      "original": "Pampers",
+      "normalized": "pampers",
+      "compact": "pampers",
+      "prefixes": [
+        "pam",
+        "pampe",
+        "pampers"
+      ],
+      "phonetic": "P516"
+    },
+    {
+      "original": "Pigeon",
+      "normalized": "pigeon",
+      "compact": "pigeon",
+      "prefixes": [
+        "pig",
+        "pigeo",
+        "pigeon"
+      ],
+      "phonetic": "P250"
+    },
+    {
+      "original": "Avenir",
+      "normalized": "avenir",
+      "compact": "avenir",
+      "prefixes": [
+        "ave",
+        "aveni",
+        "avenir"
+      ],
+      "phonetic": "A156"
+    },
+    {
+      "original": "Snubbi",
+      "normalized": "snubbi",
+      "compact": "snubbi",
+      "prefixes": [
+        "snu",
+        "snubb",
+        "snubbi"
+      ],
+      "phonetic": "S510"
+    },
+    {
+      "original": "Skoodle",
+      "normalized": "skoodle",
+      "compact": "skoodle",
+      "prefixes": [
+        "sko",
+        "skood",
+        "skoodle"
+      ],
+      "phonetic": "S340"
+    },
+    {
+      "original": "Seraphina",
+      "normalized": "seraphina",
+      "compact": "seraphina",
+      "prefixes": [
+        "ser",
+        "serap",
+        "seraphi"
+      ],
+      "phonetic": "S615"
+    },
+    {
+      "original": "Kidology",
+      "normalized": "kidology",
+      "compact": "kidology",
+      "prefixes": [
+        "kid",
+        "kidol",
+        "kidolog"
+      ],
+      "phonetic": "K342"
+    },
+    {
+      "original": "Slurrp Farm",
+      "normalized": "slurrp farm",
+      "compact": "slurrpfarm",
+      "prefixes": [
+        "slu",
+        "slurr",
+        "slurrp "
+      ],
+      "phonetic": "S461"
+    },
+    {
+      "original": "Boingg",
+      "normalized": "boingg",
+      "compact": "boingg",
+      "prefixes": [
+        "boi",
+        "boing",
+        "boingg"
+      ],
+      "phonetic": "B520"
+    },
+    {
+      "original": "Minimalist",
+      "normalized": "minimalist",
+      "compact": "minimalist",
+      "prefixes": [
+        "min",
+        "minim",
+        "minimal"
+      ],
+      "phonetic": "M542"
+    },
+    {
+      "original": "Troovy",
+      "normalized": "troovy",
+      "compact": "troovy",
+      "prefixes": [
+        "tro",
+        "troov",
+        "troovy"
+      ],
+      "phonetic": "T610"
+    },
+    {
+      "original": "Lattooland",
+      "normalized": "lattooland",
+      "compact": "lattooland",
+      "prefixes": [
+        "lat",
+        "latto",
+        "lattool"
+      ],
+      "phonetic": "L345"
+    },
+    {
+      "original": "Digitox",
+      "normalized": "digitox",
+      "compact": "digitox",
+      "prefixes": [
+        "dig",
+        "digit",
+        "digitox"
+      ],
+      "phonetic": "D232"
+    },
+    {
+      "original": "Imagimake",
+      "normalized": "imagimake",
+      "compact": "imagimake",
+      "prefixes": [
+        "ima",
+        "imagi",
+        "imagima"
+      ],
+      "phonetic": "I525"
+    },
+    {
+      "original": "Neelgagan",
+      "normalized": "neelgagan",
+      "compact": "neelgagan",
+      "prefixes": [
+        "nee",
+        "neelg",
+        "neelgag"
+      ],
+      "phonetic": "N425"
+    },
+    {
+      "original": "Balak",
+      "normalized": "balak",
+      "compact": "balak",
+      "prefixes": [
+        "bal",
+        "balak",
+        "balak"
+      ],
+      "phonetic": "B420"
+    },
+    {
+      "original": "Faber-Castell",
+      "normalized": "faber-castell",
+      "compact": "fabercastell",
+      "prefixes": [
+        "fab",
+        "faber",
+        "faber-c"
+      ],
+      "phonetic": "F623"
+    },
+    {
+      "original": "Veigo",
+      "normalized": "veigo",
+      "compact": "veigo",
+      "prefixes": [
+        "vei",
+        "veigo",
+        "veigo"
+      ],
+      "phonetic": "V200"
+    },
+    {
+      "original": "Bodycare",
+      "normalized": "bodycare",
+      "compact": "bodycare",
+      "prefixes": [
+        "bod",
+        "bodyc",
+        "bodycar"
+      ],
+      "phonetic": "B326"
+    },
+    {
+      "original": "Mi Arcus",
+      "normalized": "mi arcus",
+      "compact": "miarcus",
+      "prefixes": [
+        "mi ",
+        "mi ar",
+        "mi arcu"
+      ],
+      "phonetic": "M620"
+    },
+    {
+      "original": "Loopie",
+      "normalized": "loopie",
+      "compact": "loopie",
+      "prefixes": [
+        "loo",
+        "loopi",
+        "loopie"
+      ],
+      "phonetic": "L100"
+    },
+    {
+      "original": "Rabitat",
+      "normalized": "rabitat",
+      "compact": "rabitat",
+      "prefixes": [
+        "rab",
+        "rabit",
+        "rabitat"
+      ],
+      "phonetic": "R130"
+    },
+    {
+      "original": "Orange Sugar",
+      "normalized": "orange sugar",
+      "compact": "orangesugar",
+      "prefixes": [
+        "ora",
+        "orang",
+        "orange "
+      ],
+      "phonetic": "O652"
+    },
+    {
+      "original": "StarAndDaisy",
+      "normalized": "staranddaisy",
+      "compact": "staranddaisy",
+      "prefixes": [
+        "sta",
+        "stara",
+        "starand"
+      ],
+      "phonetic": "S365"
+    },
+    {
+      "original": "Mothercare",
+      "normalized": "mothercare",
+      "compact": "mothercare",
+      "prefixes": [
+        "mot",
+        "mothe",
+        "motherc"
+      ],
+      "phonetic": "M362"
+    },
+    {
+      "original": "Simply",
+      "normalized": "simply",
+      "compact": "simply",
+      "prefixes": [
+        "sim",
+        "simpl",
+        "simply"
+      ],
+      "phonetic": "S514"
+    },
+    {
+      "original": "Peekaaboo",
+      "normalized": "peekaaboo",
+      "compact": "peekaaboo",
+      "prefixes": [
+        "pee",
+        "peeka",
+        "peekaab"
+      ],
+      "phonetic": "P210"
+    },
+    {
+      "original": "Tiber Taber",
+      "normalized": "tiber taber",
+      "compact": "tibertaber",
+      "prefixes": [
+        "tib",
+        "tiber",
+        "tiber t"
+      ],
+      "phonetic": "T163"
+    },
+    {
+      "original": "Melii",
+      "normalized": "melii",
+      "compact": "melii",
+      "prefixes": [
+        "mel",
+        "melii",
+        "melii"
+      ],
+      "phonetic": "M400"
+    },
+    {
+      "original": "Joie",
+      "normalized": "joie",
+      "compact": "joie",
+      "prefixes": [
+        "joi",
+        "joie",
+        "joie"
+      ],
+      "phonetic": "J000"
+    },
+    {
+      "original": "Baby Brezza",
+      "normalized": "baby brezza",
+      "compact": "babybrezza",
+      "prefixes": [
+        "bab",
+        "baby ",
+        "baby br"
+      ],
+      "phonetic": "B162"
+    },
+    {
+      "original": "Momcozy",
+      "normalized": "momcozy",
+      "compact": "momcozy",
+      "prefixes": [
+        "mom",
+        "momco",
+        "momcozy"
+      ],
+      "phonetic": "M200"
+    },
+    {
+      "original": "Tak Tak Toys",
+      "normalized": "tak tak toys",
+      "compact": "taktaktoys",
+      "prefixes": [
+        "tak",
+        "tak t",
+        "tak tak"
+      ],
+      "phonetic": "T232"
+    },
+    {
+      "original": "Doms",
+      "normalized": "doms",
+      "compact": "doms",
+      "prefixes": [
+        "dom",
+        "doms",
+        "doms"
+      ],
+      "phonetic": "D520"
+    },
+    {
+      "original": "Disney",
+      "normalized": "disney",
+      "compact": "disney",
+      "prefixes": [
+        "dis",
+        "disne",
+        "disney"
+      ],
+      "phonetic": "D250"
+    },
+    {
+      "original": "Tedibar",
+      "normalized": "tedibar",
+      "compact": "tedibar",
+      "prefixes": [
+        "ted",
+        "tedib",
+        "tedibar"
+      ],
+      "phonetic": "T160"
+    },
+    {
+      "original": "Aretto",
+      "normalized": "aretto",
+      "compact": "aretto",
+      "prefixes": [
+        "are",
+        "arett",
+        "aretto"
+      ],
+      "phonetic": "A630"
+    },
+    {
+      "original": "Shyam Ji Textiles",
+      "normalized": "shyam ji textiles",
+      "compact": "shyamjitextiles",
+      "prefixes": [
+        "shy",
+        "shyam",
+        "shyam j"
+      ],
+      "phonetic": "S523"
+    },
+    {
+      "original": "Milestone Impex",
+      "normalized": "milestone impex",
+      "compact": "milestoneimpex",
+      "prefixes": [
+        "mil",
+        "miles",
+        "milesto"
+      ],
+      "phonetic": "M423"
+    },
+    {
+      "original": "Somersault",
+      "normalized": "somersault",
+      "compact": "somersault",
+      "prefixes": [
+        "som",
+        "somer",
+        "somersa"
+      ],
+      "phonetic": "S562"
+    },
+    {
+      "original": "Theoni",
+      "normalized": "theoni",
+      "compact": "theoni",
+      "prefixes": [
+        "the",
+        "theon",
+        "theoni"
+      ],
+      "phonetic": "T500"
+    },
+    {
+      "original": "WindMill",
+      "normalized": "windmill",
+      "compact": "windmill",
+      "prefixes": [
+        "win",
+        "windm",
+        "windmil"
+      ],
+      "phonetic": "W535"
+    },
+    {
+      "original": "Doreme",
+      "normalized": "doreme",
+      "compact": "doreme",
+      "prefixes": [
+        "dor",
+        "dorem",
+        "doreme"
+      ],
+      "phonetic": "D650"
+    },
+    {
+      "original": "ONYC",
+      "normalized": "onyc",
+      "compact": "onyc",
+      "prefixes": [
+        "ony",
+        "onyc",
+        "onyc"
+      ],
+      "phonetic": "O520"
+    },
+    {
+      "original": "Maate",
+      "normalized": "maate",
+      "compact": "maate",
+      "prefixes": [
+        "maa",
+        "maate",
+        "maate"
+      ],
+      "phonetic": "M300"
+    },
+    {
+      "original": "Baby Forest",
+      "normalized": "baby forest",
+      "compact": "babyforest",
+      "prefixes": [
+        "bab",
+        "baby ",
+        "baby fo"
+      ],
+      "phonetic": "B162"
+    },
+    {
+      "original": "Lazy Bones",
+      "normalized": "lazy bones",
+      "compact": "lazybones",
+      "prefixes": [
+        "laz",
+        "lazy ",
+        "lazy bo"
+      ],
+      "phonetic": "L215"
+    },
+    {
+      "original": "Gro",
+      "normalized": "gro",
+      "compact": "gro",
+      "prefixes": [
+        "gro",
+        "gro",
+        "gro"
+      ],
+      "phonetic": "G600"
+    },
+    {
+      "original": "Chicco",
+      "normalized": "chicco",
+      "compact": "chicco",
+      "prefixes": [
+        "chi",
+        "chicc",
+        "chicco"
+      ],
+      "phonetic": "C200"
+    },
+    {
+      "original": "Mother Sparsh",
+      "normalized": "mother sparsh",
+      "compact": "mothersparsh",
+      "prefixes": [
+        "mot",
+        "mothe",
+        "mother "
+      ],
+      "phonetic": "M362"
+    },
+    {
+      "original": "Sebamed",
+      "normalized": "sebamed",
+      "compact": "sebamed",
+      "prefixes": [
+        "seb",
+        "sebam",
+        "sebamed"
+      ],
+      "phonetic": "S153"
+    },
+    {
+      "original": "Skillmatics",
+      "normalized": "skillmatics",
+      "compact": "skillmatics",
+      "prefixes": [
+        "ski",
+        "skill",
+        "skillma"
+      ],
+      "phonetic": "S453"
+    },
+    {
+      "original": "Nautinati",
+      "normalized": "nautinati",
+      "compact": "nautinati",
+      "prefixes": [
+        "nau",
+        "nauti",
+        "nautina"
+      ],
+      "phonetic": "N353"
+    },
+    {
+      "original": "Little's",
+      "normalized": "little's",
+      "compact": "littles",
+      "prefixes": [
+        "lit",
+        "littl",
+        "little'"
+      ],
+      "phonetic": "L342"
+    },
+    {
+      "original": "Mirana Toys",
+      "normalized": "mirana toys",
+      "compact": "miranatoys",
+      "prefixes": [
+        "mir",
+        "miran",
+        "mirana "
+      ],
+      "phonetic": "M653"
+    },
+    {
+      "original": "Polka Tots",
+      "normalized": "polka tots",
+      "compact": "polkatots",
+      "prefixes": [
+        "pol",
+        "polka",
+        "polka t"
+      ],
+      "phonetic": "P423"
+    },
+    {
+      "original": "Plix",
+      "normalized": "plix",
+      "compact": "plix",
+      "prefixes": [
+        "pli",
+        "plix",
+        "plix"
+      ],
+      "phonetic": "P420"
+    },
+    {
+      "original": "Jarmelo",
+      "normalized": "jarmelo",
+      "compact": "jarmelo",
+      "prefixes": [
+        "jar",
+        "jarme",
+        "jarmelo"
+      ],
+      "phonetic": "J654"
+    },
+    {
+      "original": "Open Ended",
+      "normalized": "open ended",
+      "compact": "openended",
+      "prefixes": [
+        "ope",
+        "open ",
+        "open en"
+      ],
+      "phonetic": "O155"
+    },
+    {
+      "original": "Daksh",
+      "normalized": "daksh",
+      "compact": "daksh",
+      "prefixes": [
+        "dak",
+        "daksh",
+        "daksh"
+      ],
+      "phonetic": "D200"
+    },
+    {
+      "original": "Simarrtoys",
+      "normalized": "simarrtoys",
+      "compact": "simarrtoys",
+      "prefixes": [
+        "sim",
+        "simar",
+        "simarrt"
+      ],
+      "phonetic": "S563"
+    },
+    {
+      "original": "Little Minds",
+      "normalized": "little minds",
+      "compact": "littleminds",
+      "prefixes": [
+        "lit",
+        "littl",
+        "little "
+      ],
+      "phonetic": "L345"
+    },
+    {
+      "original": "Legend Of Toys",
+      "normalized": "legend of toys",
+      "compact": "legendoftoys",
+      "prefixes": [
+        "leg",
+        "legen",
+        "legend "
+      ],
+      "phonetic": "L253"
+    },
+    {
+      "original": "Moms Home",
+      "normalized": "moms home",
+      "compact": "momshome",
+      "prefixes": [
+        "mom",
+        "moms ",
+        "moms ho"
+      ],
+      "phonetic": "M250"
+    },
+    {
+      "original": "Ezpz",
+      "normalized": "ezpz",
+      "compact": "ezpz",
+      "prefixes": [
+        "ezp",
+        "ezpz",
+        "ezpz"
+      ],
+      "phonetic": "E212"
+    },
+    {
+      "original": "Oon junior",
+      "normalized": "oon junior",
+      "compact": "oonjunior",
+      "prefixes": [
+        "oon",
+        "oon j",
+        "oon jun"
+      ],
+      "phonetic": "O525"
+    },
+    {
+      "original": "The Bamboo Co",
+      "normalized": "the bamboo co",
+      "compact": "thebambooco",
+      "prefixes": [
+        "the",
+        "the b",
+        "the bam"
+      ],
+      "phonetic": "T151"
+    },
+    {
+      "original": "Diesel",
+      "normalized": "diesel",
+      "compact": "diesel",
+      "prefixes": [
+        "die",
+        "diese",
+        "diesel"
+      ],
+      "phonetic": "D240"
+    },
+    {
+      "original": "MICHAEL KORS",
+      "normalized": "michael kors",
+      "compact": "michaelkors",
+      "prefixes": [
+        "mic",
+        "micha",
+        "michael"
+      ],
+      "phonetic": "M242"
+    },
+    {
+      "original": "DUCATI",
+      "normalized": "ducati",
+      "compact": "ducati",
+      "prefixes": [
+        "duc",
+        "ducat",
+        "ducati"
+      ],
+      "phonetic": "D230"
+    },
+    {
+      "original": "DKNY",
+      "normalized": "dkny",
+      "compact": "dkny",
+      "prefixes": [
+        "dkn",
+        "dkny",
+        "dkny"
+      ],
+      "phonetic": "D250"
+    },
+    {
+      "original": "Balmain",
+      "normalized": "balmain",
+      "compact": "balmain",
+      "prefixes": [
+        "bal",
+        "balma",
+        "balmain"
+      ],
+      "phonetic": "B450"
+    },
+    {
+      "original": "Bugatti",
+      "normalized": "bugatti",
+      "compact": "bugatti",
+      "prefixes": [
+        "bug",
+        "bugat",
+        "bugatti"
+      ],
+      "phonetic": "B230"
+    },
+    {
+      "original": "Aigner",
+      "normalized": "aigner",
+      "compact": "aigner",
+      "prefixes": [
+        "aig",
+        "aigne",
+        "aigner"
+      ],
+      "phonetic": "A256"
+    },
+    {
+      "original": "Infantino",
+      "normalized": "infantino",
+      "compact": "infantino",
+      "prefixes": [
+        "inf",
+        "infan",
+        "infanti"
+      ],
+      "phonetic": "I515"
+    },
+    {
+      "original": "Skip Hop",
+      "normalized": "skip hop",
+      "compact": "skiphop",
+      "prefixes": [
+        "ski",
+        "skip ",
+        "skip ho"
+      ],
+      "phonetic": "S110"
+    },
+    {
+      "original": "Mattel Toys",
+      "normalized": "mattel toys",
+      "compact": "matteltoys",
+      "prefixes": [
+        "mat",
+        "matte",
+        "mattel "
+      ],
+      "phonetic": "M343"
+    },
+    {
+      "original": "Happy Threads",
+      "normalized": "happy threads",
+      "compact": "happythreads",
+      "prefixes": [
+        "hap",
+        "happy",
+        "happy t"
+      ],
+      "phonetic": "H136"
+    },
+    {
+      "original": "Pepplay",
+      "normalized": "pepplay",
+      "compact": "pepplay",
+      "prefixes": [
+        "pep",
+        "peppl",
+        "pepplay"
+      ],
+      "phonetic": "P140"
+    },
+    {
+      "original": "KB",
+      "normalized": "kb",
+      "compact": "kb",
+      "prefixes": [
+        "kb",
+        "kb",
+        "kb"
+      ],
+      "phonetic": "K100"
+    },
+    {
+      "original": "Himalaya",
+      "normalized": "himalaya",
+      "compact": "himalaya",
+      "prefixes": [
+        "him",
+        "himal",
+        "himalay"
+      ],
+      "phonetic": "H540"
+    },
+    {
+      "original": "Cry Babies",
+      "normalized": "cry babies",
+      "compact": "crybabies",
+      "prefixes": [
+        "cry",
+        "cry b",
+        "cry bab"
+      ],
+      "phonetic": "C612"
+    },
+    {
+      "original": "Annie Toys",
+      "normalized": "annie toys",
+      "compact": "annietoys",
+      "prefixes": [
+        "ann",
+        "annie",
+        "annie t"
+      ],
+      "phonetic": "A532"
+    },
+    {
+      "original": "Innovitoy",
+      "normalized": "innovitoy",
+      "compact": "innovitoy",
+      "prefixes": [
+        "inn",
+        "innov",
+        "innovit"
+      ],
+      "phonetic": "I513"
+    },
+    {
+      "original": "Nestle",
+      "normalized": "nestle",
+      "compact": "nestle",
+      "prefixes": [
+        "nes",
+        "nestl",
+        "nestle"
+      ],
+      "phonetic": "N234"
+    },
+    {
+      "original": "Dexolac",
+      "normalized": "dexolac",
+      "compact": "dexolac",
+      "prefixes": [
+        "dex",
+        "dexol",
+        "dexolac"
+      ],
+      "phonetic": "D242"
+    },
+    {
+      "original": "Control D",
+      "normalized": "control d",
+      "compact": "controld",
+      "prefixes": [
+        "con",
+        "contr",
+        "control"
+      ],
+      "phonetic": "C536"
+    },
+    {
+      "original": "Beurer",
+      "normalized": "beurer",
+      "compact": "beurer",
+      "prefixes": [
+        "beu",
+        "beure",
+        "beurer"
+      ],
+      "phonetic": "B600"
+    },
+    {
+      "original": "Keebee",
+      "normalized": "keebee",
+      "compact": "keebee",
+      "prefixes": [
+        "kee",
+        "keebe",
+        "keebee"
+      ],
+      "phonetic": "K100"
+    },
+    {
+      "original": "Ekta",
+      "normalized": "ekta",
+      "compact": "ekta",
+      "prefixes": [
+        "ekt",
+        "ekta",
+        "ekta"
+      ],
+      "phonetic": "E230"
+    },
+    {
+      "original": "Little Berry",
+      "normalized": "little berry",
+      "compact": "littleberry",
+      "prefixes": [
+        "lit",
+        "littl",
+        "little "
+      ],
+      "phonetic": "L341"
+    },
+    {
+      "original": "KinderArt",
+      "normalized": "kinderart",
+      "compact": "kinderart",
+      "prefixes": [
+        "kin",
+        "kinde",
+        "kindera"
+      ],
+      "phonetic": "K536"
+    },
+    {
+      "original": "Marvel",
+      "normalized": "marvel",
+      "compact": "marvel",
+      "prefixes": [
+        "mar",
+        "marve",
+        "marvel"
+      ],
+      "phonetic": "M614"
+    },
+    {
+      "original": "LuvLap",
+      "normalized": "luvlap",
+      "compact": "luvlap",
+      "prefixes": [
+        "luv",
+        "luvla",
+        "luvlap"
+      ],
+      "phonetic": "L141"
+    },
+    {
+      "original": "Zero",
+      "normalized": "zero",
+      "compact": "zero",
+      "prefixes": [
+        "zer",
+        "zero",
+        "zero"
+      ],
+      "phonetic": "Z600"
+    },
+    {
+      "original": "Teddy",
+      "normalized": "teddy",
+      "compact": "teddy",
+      "prefixes": [
+        "ted",
+        "teddy",
+        "teddy"
+      ],
+      "phonetic": "T300"
+    },
+    {
+      "original": "Orange Bubbles",
+      "normalized": "orange bubbles",
+      "compact": "orangebubbles",
+      "prefixes": [
+        "ora",
+        "orang",
+        "orange "
+      ],
+      "phonetic": "O652"
+    },
+    {
+      "original": "Hopop",
+      "normalized": "hopop",
+      "compact": "hopop",
+      "prefixes": [
+        "hop",
+        "hopop",
+        "hopop"
+      ],
+      "phonetic": "H100"
+    },
+    {
+      "original": "Lille Barn",
+      "normalized": "lille barn",
+      "compact": "lillebarn",
+      "prefixes": [
+        "lil",
+        "lille",
+        "lille b"
+      ],
+      "phonetic": "L416"
+    },
+    {
+      "original": "Pink Rabbit",
+      "normalized": "pink rabbit",
+      "compact": "pinkrabbit",
+      "prefixes": [
+        "pin",
+        "pink ",
+        "pink ra"
+      ],
+      "phonetic": "P526"
+    },
+    {
+      "original": "Mini Taurus",
+      "normalized": "mini taurus",
+      "compact": "minitaurus",
+      "prefixes": [
+        "min",
+        "mini ",
+        "mini ta"
+      ],
+      "phonetic": "M362"
+    },
+    {
+      "original": "A Toddler Thing",
+      "normalized": "a toddler thing",
+      "compact": "atoddlerthing",
+      "prefixes": [
+        "a t",
+        "a tod",
+        "a toddl"
+      ],
+      "phonetic": "A334"
+    },
+    {
+      "original": "Winfun",
+      "normalized": "winfun",
+      "compact": "winfun",
+      "prefixes": [
+        "win",
+        "winfu",
+        "winfun"
+      ],
+      "phonetic": "W515"
+    },
+    {
+      "original": "SuperBottoms",
+      "normalized": "superbottoms",
+      "compact": "superbottoms",
+      "prefixes": [
+        "sup",
+        "super",
+        "superbo"
+      ],
+      "phonetic": "S161"
+    },
+    {
+      "original": "Wembley",
+      "normalized": "wembley",
+      "compact": "wembley",
+      "prefixes": [
+        "wem",
+        "wembl",
+        "wembley"
+      ],
+      "phonetic": "W514"
+    },
+    {
+      "original": "Smiggle",
+      "normalized": "smiggle",
+      "compact": "smiggle",
+      "prefixes": [
+        "smi",
+        "smigg",
+        "smiggle"
+      ],
+      "phonetic": "S524"
+    },
+    {
+      "original": "Snubbii",
+      "normalized": "snubbii",
+      "compact": "snubbii",
+      "prefixes": [
+        "snu",
+        "snubb",
+        "snubbii"
+      ],
+      "phonetic": "S510"
+    },
+    {
+      "original": "Toffy House",
+      "normalized": "toffy house",
+      "compact": "toffyhouse",
+      "prefixes": [
+        "tof",
+        "toffy",
+        "toffy h"
+      ],
+      "phonetic": "T120"
+    },
+    {
+      "original": "Chocolate Baby",
+      "normalized": "chocolate baby",
+      "compact": "chocolatebaby",
+      "prefixes": [
+        "cho",
+        "choco",
+        "chocola"
+      ],
+      "phonetic": "C431"
+    },
+    {
+      "original": "MamyPokoPants",
+      "normalized": "mamypokopants",
+      "compact": "mamypokopants",
+      "prefixes": [
+        "mam",
+        "mamyp",
+        "mamypok"
+      ],
+      "phonetic": "M121"
+    },
+    {
+      "original": "Colgate",
+      "normalized": "colgate",
+      "compact": "colgate",
+      "prefixes": [
+        "col",
+        "colga",
+        "colgate"
+      ],
+      "phonetic": "C423"
+    },
+    {
+      "original": "Kawaii",
+      "normalized": "kawaii",
+      "compact": "kawaii",
+      "prefixes": [
+        "kaw",
+        "kawai",
+        "kawaii"
+      ],
+      "phonetic": "K000"
+    },
+    {
+      "original": "Game Begins",
+      "normalized": "game begins",
+      "compact": "gamebegins",
+      "prefixes": [
+        "gam",
+        "game ",
+        "game be"
+      ],
+      "phonetic": "G512"
+    },
+    {
+      "original": "Lillbuds",
+      "normalized": "lillbuds",
+      "compact": "lillbuds",
+      "prefixes": [
+        "lil",
+        "lillb",
+        "lillbud"
+      ],
+      "phonetic": "L413"
+    },
+    {
+      "original": "Cello",
+      "normalized": "cello",
+      "compact": "cello",
+      "prefixes": [
+        "cel",
+        "cello",
+        "cello"
+      ],
+      "phonetic": "C400"
+    },
+    {
+      "original": "Mee Mee",
+      "normalized": "mee mee",
+      "compact": "meemee",
+      "prefixes": [
+        "mee",
+        "mee m",
+        "mee mee"
+      ],
+      "phonetic": "M500"
+    },
+    {
+      "original": "Youva",
+      "normalized": "youva",
+      "compact": "youva",
+      "prefixes": [
+        "you",
+        "youva",
+        "youva"
+      ],
+      "phonetic": "Y100"
+    },
+    {
+      "original": "Cucumber",
+      "normalized": "cucumber",
+      "compact": "cucumber",
+      "prefixes": [
+        "cuc",
+        "cucum",
+        "cucumbe"
+      ],
+      "phonetic": "C516"
+    },
+    {
+      "original": "Lego",
+      "normalized": "lego",
+      "compact": "lego",
+      "prefixes": [
+        "leg",
+        "lego",
+        "lego"
+      ],
+      "phonetic": "L200"
+    },
+    {
+      "original": "Kats",
+      "normalized": "kats",
+      "compact": "kats",
+      "prefixes": [
+        "kat",
+        "kats",
+        "kats"
+      ],
+      "phonetic": "K320"
+    },
+    {
+      "original": "Paw Patrol",
+      "normalized": "paw patrol",
+      "compact": "pawpatrol",
+      "prefixes": [
+        "paw",
+        "paw p",
+        "paw pat"
+      ],
+      "phonetic": "P136"
+    },
+    {
+      "original": "Simply Premium",
+      "normalized": "simply premium",
+      "compact": "simplypremium",
+      "prefixes": [
+        "sim",
+        "simpl",
+        "simply "
+      ],
+      "phonetic": "S514"
+    },
+    {
+      "original": "Dickie Toys",
+      "normalized": "dickie toys",
+      "compact": "dickietoys",
+      "prefixes": [
+        "dic",
+        "dicki",
+        "dickie "
+      ],
+      "phonetic": "D232"
+    },
+    {
+      "original": "Masha and the Bear",
+      "normalized": "masha and the bear",
+      "compact": "mashaandthebear",
+      "prefixes": [
+        "mas",
+        "masha",
+        "masha a"
+      ],
+      "phonetic": "M253"
+    },
+    {
+      "original": "Genie",
+      "normalized": "genie",
+      "compact": "genie",
+      "prefixes": [
+        "gen",
+        "genie",
+        "genie"
+      ],
+      "phonetic": "G500"
+    },
+    {
+      "original": "Fisher-Price",
+      "normalized": "fisher-price",
+      "compact": "fisherprice",
+      "prefixes": [
+        "fis",
+        "fishe",
+        "fisher-"
+      ],
+      "phonetic": "F261"
+    },
+    {
+      "original": "Clockwork",
+      "normalized": "clockwork",
+      "compact": "clockwork",
+      "prefixes": [
+        "clo",
+        "clock",
+        "clockwo"
+      ],
+      "phonetic": "C426"
+    },
+    {
+      "original": "M'andy",
+      "normalized": "m'andy",
+      "compact": "mandy",
+      "prefixes": [
+        "m'a",
+        "m'and",
+        "m'andy"
+      ],
+      "phonetic": "M530"
+    },
+    {
+      "original": "Amulya",
+      "normalized": "amulya",
+      "compact": "amulya",
+      "prefixes": [
+        "amu",
+        "amuly",
+        "amulya"
+      ],
+      "phonetic": "A540"
+    },
+    {
+      "original": "Majorette",
+      "normalized": "majorette",
+      "compact": "majorette",
+      "prefixes": [
+        "maj",
+        "major",
+        "majoret"
+      ],
+      "phonetic": "M263"
+    },
+    {
+      "original": "Pepito",
+      "normalized": "pepito",
+      "compact": "pepito",
+      "prefixes": [
+        "pep",
+        "pepit",
+        "pepito"
+      ],
+      "phonetic": "P300"
+    },
+    {
+      "original": "Basil",
+      "normalized": "basil",
+      "compact": "basil",
+      "prefixes": [
+        "bas",
+        "basil",
+        "basil"
+      ],
+      "phonetic": "B240"
+    },
+    {
+      "original": "Little Rituals",
+      "normalized": "little rituals",
+      "compact": "littlerituals",
+      "prefixes": [
+        "lit",
+        "littl",
+        "little "
+      ],
+      "phonetic": "L346"
+    },
+    {
+      "original": "I Bears",
+      "normalized": "i bears",
+      "compact": "ibears",
+      "prefixes": [
+        "i b",
+        "i bea",
+        "i bears"
+      ],
+      "phonetic": "I162"
+    },
+    {
+      "original": "Orrigany",
+      "normalized": "orrigany",
+      "compact": "orrigany",
+      "prefixes": [
+        "orr",
+        "orrig",
+        "orrigan"
+      ],
+      "phonetic": "O625"
+    },
+    {
+      "original": "Skybags",
+      "normalized": "skybags",
+      "compact": "skybags",
+      "prefixes": [
+        "sky",
+        "skyba",
+        "skybags"
+      ],
+      "phonetic": "S120"
+    },
+    {
+      "original": "Makerverse",
+      "normalized": "makerverse",
+      "compact": "makerverse",
+      "prefixes": [
+        "mak",
+        "maker",
+        "makerve"
+      ],
+      "phonetic": "M261"
+    },
+    {
+      "original": "BUMZEE",
+      "normalized": "bumzee",
+      "compact": "bumzee",
+      "prefixes": [
+        "bum",
+        "bumze",
+        "bumzee"
+      ],
+      "phonetic": "B520"
+    },
+    {
+      "original": "Lazy Shark",
+      "normalized": "lazy shark",
+      "compact": "lazyshark",
+      "prefixes": [
+        "laz",
+        "lazy ",
+        "lazy sh"
+      ],
+      "phonetic": "L226"
+    },
+    {
+      "original": "Cute Born",
+      "normalized": "cute born",
+      "compact": "cuteborn",
+      "prefixes": [
+        "cut",
+        "cute ",
+        "cute bo"
+      ],
+      "phonetic": "C316"
+    },
+    {
+      "original": "Just Trendy",
+      "normalized": "just trendy",
+      "compact": "justtrendy",
+      "prefixes": [
+        "jus",
+        "just ",
+        "just tr"
+      ],
+      "phonetic": "J336"
+    },
+    {
+      "original": "Cosco",
+      "normalized": "cosco",
+      "compact": "cosco",
+      "prefixes": [
+        "cos",
+        "cosco",
+        "cosco"
+      ],
+      "phonetic": "C200"
+    },
+    {
+      "original": "SG",
+      "normalized": "sg",
+      "compact": "sg",
+      "prefixes": [
+        "sg",
+        "sg",
+        "sg"
+      ],
+      "phonetic": "S000"
+    },
+    {
+      "original": "Mevo",
+      "normalized": "mevo",
+      "compact": "mevo",
+      "prefixes": [
+        "mev",
+        "mevo",
+        "mevo"
+      ],
+      "phonetic": "M100"
+    },
+    {
+      "original": "Philips Avent",
+      "normalized": "philips avent",
+      "compact": "philipsavent",
+      "prefixes": [
+        "phi",
+        "phili",
+        "philips"
+      ],
+      "phonetic": "P412"
+    },
+    {
+      "original": "Zemba",
+      "normalized": "zemba",
+      "compact": "zemba",
+      "prefixes": [
+        "zem",
+        "zemba",
+        "zemba"
+      ],
+      "phonetic": "Z510"
+    },
+    {
+      "original": "StemPlay Labs",
+      "normalized": "stemplay labs",
+      "compact": "stemplaylabs",
+      "prefixes": [
+        "ste",
+        "stemp",
+        "stempla"
+      ],
+      "phonetic": "S351"
+    },
+    {
+      "original": "Intex",
+      "normalized": "intex",
+      "compact": "intex",
+      "prefixes": [
+        "int",
+        "intex",
+        "intex"
+      ],
+      "phonetic": "I532"
+    },
+    {
+      "original": "Fix Derma",
+      "normalized": "fix derma",
+      "compact": "fixderma",
+      "prefixes": [
+        "fix",
+        "fix d",
+        "fix der"
+      ],
+      "phonetic": "F236"
+    },
+    {
+      "original": "Supersox",
+      "normalized": "supersox",
+      "compact": "supersox",
+      "prefixes": [
+        "sup",
+        "super",
+        "superso"
+      ],
+      "phonetic": "S162"
+    },
+    {
+      "original": "Little Folks",
+      "normalized": "little folks",
+      "compact": "littlefolks",
+      "prefixes": [
+        "lit",
+        "littl",
+        "little "
+      ],
+      "phonetic": "L341"
+    },
+    {
+      "original": "Baby Divas",
+      "normalized": "baby divas",
+      "compact": "babydivas",
+      "prefixes": [
+        "bab",
+        "baby ",
+        "baby di"
+      ],
+      "phonetic": "B312"
+    },
+    {
+      "original": "Teddyy",
+      "normalized": "teddyy",
+      "compact": "teddyy",
+      "prefixes": [
+        "ted",
+        "teddy",
+        "teddyy"
+      ],
+      "phonetic": "T300"
+    },
+    {
+      "original": "Smarty Boys",
+      "normalized": "smarty boys",
+      "compact": "smartyboys",
+      "prefixes": [
+        "sma",
+        "smart",
+        "smarty "
+      ],
+      "phonetic": "S563"
+    },
+    {
+      "original": "Mingo",
+      "normalized": "mingo",
+      "compact": "mingo",
+      "prefixes": [
+        "min",
+        "mingo",
+        "mingo"
+      ],
+      "phonetic": "M200"
+    },
+    {
+      "original": "Comotomo",
+      "normalized": "comotomo",
+      "compact": "comotomo",
+      "prefixes": [
+        "com",
+        "comot",
+        "comotom"
+      ],
+      "phonetic": "C535"
+    },
+    {
+      "original": "Shumee",
+      "normalized": "shumee",
+      "compact": "shumee",
+      "prefixes": [
+        "shu",
+        "shume",
+        "shumee"
+      ],
+      "phonetic": "S500"
+    },
+    {
+      "original": "Nestling Nooks",
+      "normalized": "nestling nooks",
+      "compact": "nestlingnooks",
+      "prefixes": [
+        "nes",
+        "nestl",
+        "nestlin"
+      ],
+      "phonetic": "N234"
+    },
+    {
+      "original": "Nubu",
+      "normalized": "nubu",
+      "compact": "nubu",
+      "prefixes": [
+        "nub",
+        "nubu",
+        "nubu"
+      ],
+      "phonetic": "N100"
+    },
+    {
+      "original": "Sellet",
+      "normalized": "sellet",
+      "compact": "sellet",
+      "prefixes": [
+        "sel",
+        "selle",
+        "sellet"
+      ],
+      "phonetic": "S430"
+    },
+    {
+      "original": "Mirada",
+      "normalized": "mirada",
+      "compact": "mirada",
+      "prefixes": [
+        "mir",
+        "mirad",
+        "mirada"
+      ],
+      "phonetic": "M630"
+    },
+    {
+      "original": "B.Box",
+      "normalized": "b.box",
+      "compact": "bbox",
+      "prefixes": [
+        "b.b",
+        "b.box",
+        "b.box"
+      ],
+      "phonetic": "B120"
+    },
+    {
+      "original": "Bibado",
+      "normalized": "bibado",
+      "compact": "bibado",
+      "prefixes": [
+        "bib",
+        "bibad",
+        "bibado"
+      ],
+      "phonetic": "B300"
+    },
+    {
+      "original": "MSZ",
+      "normalized": "msz",
+      "compact": "msz",
+      "prefixes": [
+        "msz",
+        "msz",
+        "msz"
+      ],
+      "phonetic": "M200"
+    },
+    {
+      "original": "Ariro",
+      "normalized": "ariro",
+      "compact": "ariro",
+      "prefixes": [
+        "ari",
+        "ariro",
+        "ariro"
+      ],
+      "phonetic": "A600"
+    },
+    {
+      "original": "iLearnngrow",
+      "normalized": "ilearnngrow",
+      "compact": "ilearnngrow",
+      "prefixes": [
+        "ile",
+        "ilear",
+        "ilearnn"
+      ],
+      "phonetic": "I465"
+    },
+    {
+      "original": "Kidipoo",
+      "normalized": "kidipoo",
+      "compact": "kidipoo",
+      "prefixes": [
+        "kid",
+        "kidip",
+        "kidipoo"
+      ],
+      "phonetic": "K310"
+    },
+    {
+      "original": "Funskool",
+      "normalized": "funskool",
+      "compact": "funskool",
+      "prefixes": [
+        "fun",
+        "funsk",
+        "funskoo"
+      ],
+      "phonetic": "F524"
+    },
+    {
+      "original": "Piccolo",
+      "normalized": "piccolo",
+      "compact": "piccolo",
+      "prefixes": [
+        "pic",
+        "picco",
+        "piccolo"
+      ],
+      "phonetic": "P240"
+    },
+    {
+      "original": "Coco Crush",
+      "normalized": "coco crush",
+      "compact": "cococrush",
+      "prefixes": [
+        "coc",
+        "coco ",
+        "coco cr"
+      ],
+      "phonetic": "C262"
+    },
+    {
+      "original": "Luxor",
+      "normalized": "luxor",
+      "compact": "luxor",
+      "prefixes": [
+        "lux",
+        "luxor",
+        "luxor"
+      ],
+      "phonetic": "L260"
+    },
+    {
+      "original": "Adidas",
+      "normalized": "adidas",
+      "compact": "adidas",
+      "prefixes": [
+        "adi",
+        "adida",
+        "adidas"
+      ],
+      "phonetic": "A320"
+    },
+    {
+      "original": "PlayBox",
+      "normalized": "playbox",
+      "compact": "playbox",
+      "prefixes": [
+        "pla",
+        "playb",
+        "playbox"
+      ],
+      "phonetic": "P412"
+    },
+    {
+      "original": "Campana",
+      "normalized": "campana",
+      "compact": "campana",
+      "prefixes": [
+        "cam",
+        "campa",
+        "campana"
+      ],
+      "phonetic": "C515"
+    },
+    {
+      "original": "Blue Tree",
+      "normalized": "blue tree",
+      "compact": "bluetree",
+      "prefixes": [
+        "blu",
+        "blue ",
+        "blue tr"
+      ],
+      "phonetic": "B436"
+    },
+    {
+      "original": "Awenest",
+      "normalized": "awenest",
+      "compact": "awenest",
+      "prefixes": [
+        "awe",
+        "awene",
+        "awenest"
+      ],
+      "phonetic": "A523"
+    },
+    {
+      "original": "Kidsville",
+      "normalized": "kidsville",
+      "compact": "kidsville",
+      "prefixes": [
+        "kid",
+        "kidsv",
+        "kidsvil"
+      ],
+      "phonetic": "K321"
+    },
+    {
+      "original": "Toykraftt",
+      "normalized": "toykraftt",
+      "compact": "toykraftt",
+      "prefixes": [
+        "toy",
+        "toykr",
+        "toykraf"
+      ],
+      "phonetic": "T261"
+    },
+    {
+      "original": "Putchi",
+      "normalized": "putchi",
+      "compact": "putchi",
+      "prefixes": [
+        "put",
+        "putch",
+        "putchi"
+      ],
+      "phonetic": "P320"
+    },
+    {
+      "original": "TOYZONE",
+      "normalized": "toyzone",
+      "compact": "toyzone",
+      "prefixes": [
+        "toy",
+        "toyzo",
+        "toyzone"
+      ],
+      "phonetic": "T250"
+    },
+    {
+      "original": "Jugo Play",
+      "normalized": "jugo play",
+      "compact": "jugoplay",
+      "prefixes": [
+        "jug",
+        "jugo ",
+        "jugo pl"
+      ],
+      "phonetic": "J140"
+    },
+    {
+      "original": "ELC",
+      "normalized": "elc",
+      "compact": "elc",
+      "prefixes": [
+        "elc",
+        "elc",
+        "elc"
+      ],
+      "phonetic": "E420"
+    },
+    {
+      "original": "PlayShifu",
+      "normalized": "playshifu",
+      "compact": "playshifu",
+      "prefixes": [
+        "pla",
+        "plays",
+        "playshi"
+      ],
+      "phonetic": "P421"
+    },
+    {
+      "original": "Hasbro",
+      "normalized": "hasbro",
+      "compact": "hasbro",
+      "prefixes": [
+        "has",
+        "hasbr",
+        "hasbro"
+      ],
+      "phonetic": "H216"
+    },
+    {
+      "original": "Anthrilo",
+      "normalized": "anthrilo",
+      "compact": "anthrilo",
+      "prefixes": [
+        "ant",
+        "anthr",
+        "anthril"
+      ],
+      "phonetic": "A536"
+    },
+    {
+      "original": "Kuber Industries",
+      "normalized": "kuber industries",
+      "compact": "kuberindustries",
+      "prefixes": [
+        "kub",
+        "kuber",
+        "kuber i"
+      ],
+      "phonetic": "K165"
+    },
+    {
+      "original": "Nivia",
+      "normalized": "nivia",
+      "compact": "nivia",
+      "prefixes": [
+        "niv",
+        "nivia",
+        "nivia"
+      ],
+      "phonetic": "N100"
+    },
+    {
+      "original": "Stag",
+      "normalized": "stag",
+      "compact": "stag",
+      "prefixes": [
+        "sta",
+        "stag",
+        "stag"
+      ],
+      "phonetic": "S320"
+    },
+    {
+      "original": "Yonex",
+      "normalized": "yonex",
+      "compact": "yonex",
+      "prefixes": [
+        "yon",
+        "yonex",
+        "yonex"
+      ],
+      "phonetic": "Y520"
+    },
+    {
+      "original": "Dooky",
+      "normalized": "dooky",
+      "compact": "dooky",
+      "prefixes": [
+        "doo",
+        "dooky",
+        "dooky"
+      ],
+      "phonetic": "D200"
+    },
+    {
+      "original": "Leclercbaby",
+      "normalized": "leclercbaby",
+      "compact": "leclercbaby",
+      "prefixes": [
+        "lec",
+        "lecle",
+        "leclerc"
+      ],
+      "phonetic": "L246"
+    },
+    {
+      "original": "ROZIOR",
+      "normalized": "rozior",
+      "compact": "rozior",
+      "prefixes": [
+        "roz",
+        "rozio",
+        "rozior"
+      ],
+      "phonetic": "R260"
+    },
+    {
+      "original": "Promom",
+      "normalized": "promom",
+      "compact": "promom",
+      "prefixes": [
+        "pro",
+        "promo",
+        "promom"
+      ],
+      "phonetic": "P650"
+    },
+    {
+      "original": "Cybex",
+      "normalized": "cybex",
+      "compact": "cybex",
+      "prefixes": [
+        "cyb",
+        "cybex",
+        "cybex"
+      ],
+      "phonetic": "C120"
+    },
+    {
+      "original": "Liberty shoes",
+      "normalized": "liberty shoes",
+      "compact": "libertyshoes",
+      "prefixes": [
+        "lib",
+        "liber",
+        "liberty"
+      ],
+      "phonetic": "L163"
+    },
+    {
+      "original": "Lakhani Shoes",
+      "normalized": "lakhani shoes",
+      "compact": "lakhanishoes",
+      "prefixes": [
+        "lak",
+        "lakha",
+        "lakhani"
+      ],
+      "phonetic": "L252"
+    },
+    {
+      "original": "Yellow Bee",
+      "normalized": "yellow bee",
+      "compact": "yellowbee",
+      "prefixes": [
+        "yel",
+        "yello",
+        "yellow "
+      ],
+      "phonetic": "Y410"
+    },
+    {
+      "original": "Plush",
+      "normalized": "plush",
+      "compact": "plush",
+      "prefixes": [
+        "plu",
+        "plush",
+        "plush"
+      ],
+      "phonetic": "P420"
+    },
+    {
+      "original": "Googo Gaaga",
+      "normalized": "googo gaaga",
+      "compact": "googogaaga",
+      "prefixes": [
+        "goo",
+        "googo",
+        "googo g"
+      ],
+      "phonetic": "G200"
+    },
+    {
+      "original": "Bbluv",
+      "normalized": "bbluv",
+      "compact": "bbluv",
+      "prefixes": [
+        "bbl",
+        "bbluv",
+        "bbluv"
+      ],
+      "phonetic": "B410"
+    },
+    {
+      "original": "Graco",
+      "normalized": "graco",
+      "compact": "graco",
+      "prefixes": [
+        "gra",
+        "graco",
+        "graco"
+      ],
+      "phonetic": "G620"
+    },
+    {
+      "original": ".allter",
+      "normalized": ".allter",
+      "compact": "allter",
+      "prefixes": [
+        ".al",
+        ".allt",
+        ".allter"
+      ],
+      "phonetic": ".436"
+    },
+    {
+      "original": "Small Wonderrs",
+      "normalized": "small wonderrs",
+      "compact": "smallwonderrs",
+      "prefixes": [
+        "sma",
+        "small",
+        "small w"
+      ],
+      "phonetic": "S545"
+    },
+    {
+      "original": "SB",
+      "normalized": "sb",
+      "compact": "sb",
+      "prefixes": [
+        "sb",
+        "sb",
+        "sb"
+      ],
+      "phonetic": "S100"
+    },
+    {
+      "original": "Smarty Girls",
+      "normalized": "smarty girls",
+      "compact": "smartygirls",
+      "prefixes": [
+        "sma",
+        "smart",
+        "smarty "
+      ],
+      "phonetic": "S563"
+    },
+    {
+      "original": "Zeezeezoo",
+      "normalized": "zeezeezoo",
+      "compact": "zeezeezoo",
+      "prefixes": [
+        "zee",
+        "zeeze",
+        "zeezeez"
+      ],
+      "phonetic": "Z200"
+    },
+    {
+      "original": "Caltrix",
+      "normalized": "caltrix",
+      "compact": "caltrix",
+      "prefixes": [
+        "cal",
+        "caltr",
+        "caltrix"
+      ],
+      "phonetic": "C436"
+    },
+    {
+      "original": "Arobro",
+      "normalized": "arobro",
+      "compact": "arobro",
+      "prefixes": [
+        "aro",
+        "arobr",
+        "arobro"
+      ],
+      "phonetic": "A616"
+    },
+    {
+      "original": "Milton",
+      "normalized": "milton",
+      "compact": "milton",
+      "prefixes": [
+        "mil",
+        "milto",
+        "milton"
+      ],
+      "phonetic": "M435"
+    },
+    {
+      "original": "GANESH",
+      "normalized": "ganesh",
+      "compact": "ganesh",
+      "prefixes": [
+        "gan",
+        "ganes",
+        "ganesh"
+      ],
+      "phonetic": "G520"
+    },
+    {
+      "original": "The Whole Truth",
+      "normalized": "the whole truth",
+      "compact": "thewholetruth",
+      "prefixes": [
+        "the",
+        "the w",
+        "the who"
+      ],
+      "phonetic": "T436"
+    },
+    {
+      "original": "KID1",
+      "normalized": "kid1",
+      "compact": "kid1",
+      "prefixes": [
+        "kid",
+        "kid1",
+        "kid1"
+      ],
+      "phonetic": "K300"
+    },
+    {
+      "original": "Nubo",
+      "normalized": "nubo",
+      "compact": "nubo",
+      "prefixes": [
+        "nub",
+        "nubo",
+        "nubo"
+      ],
+      "phonetic": "N100"
+    },
+    {
+      "original": "Venusia",
+      "normalized": "venusia",
+      "compact": "venusia",
+      "prefixes": [
+        "ven",
+        "venus",
+        "venusia"
+      ],
+      "phonetic": "V520"
+    },
+    {
+      "original": "One Friday",
+      "normalized": "one friday",
+      "compact": "onefriday",
+      "prefixes": [
+        "one",
+        "one f",
+        "one fri"
+      ],
+      "phonetic": "O516"
+    },
+    {
+      "original": "Nuluv",
+      "normalized": "nuluv",
+      "compact": "nuluv",
+      "prefixes": [
+        "nul",
+        "nuluv",
+        "nuluv"
+      ],
+      "phonetic": "N410"
+    },
+    {
+      "original": "Doto Kids",
+      "normalized": "doto kids",
+      "compact": "dotokids",
+      "prefixes": [
+        "dot",
+        "doto ",
+        "doto ki"
+      ],
+      "phonetic": "D232"
+    },
+    {
+      "original": "Nayasa",
+      "normalized": "nayasa",
+      "compact": "nayasa",
+      "prefixes": [
+        "nay",
+        "nayas",
+        "nayasa"
+      ],
+      "phonetic": "N200"
+    },
+    {
+      "original": "Cetaphil",
+      "normalized": "cetaphil",
+      "compact": "cetaphil",
+      "prefixes": [
+        "cet",
+        "cetap",
+        "cetaphi"
+      ],
+      "phonetic": "C314"
+    },
+    {
+      "original": "Lazy Baby",
+      "normalized": "lazy baby",
+      "compact": "lazybaby",
+      "prefixes": [
+        "laz",
+        "lazy ",
+        "lazy ba"
+      ],
+      "phonetic": "L210"
+    },
+    {
+      "original": "Taffy",
+      "normalized": "taffy",
+      "compact": "taffy",
+      "prefixes": [
+        "taf",
+        "taffy",
+        "taffy"
+      ],
+      "phonetic": "T100"
+    },
+    {
+      "original": "House Of Zelena",
+      "normalized": "house of zelena",
+      "compact": "houseofzelena",
+      "prefixes": [
+        "hou",
+        "house",
+        "house o"
+      ],
+      "phonetic": "H212"
+    },
+    {
+      "original": "KRIIDDAANK",
+      "normalized": "kriiddaank",
+      "compact": "kriiddaank",
+      "prefixes": [
+        "kri",
+        "kriid",
+        "kriidda"
+      ],
+      "phonetic": "K635"
+    },
+    {
+      "original": "VIJAY TOYS",
+      "normalized": "vijay toys",
+      "compact": "vijaytoys",
+      "prefixes": [
+        "vij",
+        "vijay",
+        "vijay t"
+      ],
+      "phonetic": "V232"
+    },
+    {
+      "original": "I TOYS",
+      "normalized": "i toys",
+      "compact": "itoys",
+      "prefixes": [
+        "i t",
+        "i toy",
+        "i toys"
+      ],
+      "phonetic": "I320"
+    },
+    {
+      "original": "The Mom Store",
+      "normalized": "the mom store",
+      "compact": "themomstore",
+      "prefixes": [
+        "the",
+        "the m",
+        "the mom"
+      ],
+      "phonetic": "T523"
+    },
+    {
+      "original": "Kutuhal",
+      "normalized": "kutuhal",
+      "compact": "kutuhal",
+      "prefixes": [
+        "kut",
+        "kutuh",
+        "kutuhal"
+      ],
+      "phonetic": "K340"
+    },
+    {
+      "original": "Genius Box",
+      "normalized": "genius box",
+      "compact": "geniusbox",
+      "prefixes": [
+        "gen",
+        "geniu",
+        "genius "
+      ],
+      "phonetic": "G521"
+    },
+    {
+      "original": "Butterfly Edufields",
+      "normalized": "butterfly edufields",
+      "compact": "butterflyedufields",
+      "prefixes": [
+        "but",
+        "butte",
+        "butterf"
+      ],
+      "phonetic": "B361"
+    },
+    {
+      "original": "HILIFE",
+      "normalized": "hilife",
+      "compact": "hilife",
+      "prefixes": [
+        "hil",
+        "hilif",
+        "hilife"
+      ],
+      "phonetic": "H410"
+    },
+    {
+      "original": "Tiny Bee",
+      "normalized": "tiny bee",
+      "compact": "tinybee",
+      "prefixes": [
+        "tin",
+        "tiny ",
+        "tiny be"
+      ],
+      "phonetic": "T510"
+    },
+    {
+      "original": "Actonn",
+      "normalized": "actonn",
+      "compact": "actonn",
+      "prefixes": [
+        "act",
+        "acton",
+        "actonn"
+      ],
+      "phonetic": "A235"
+    },
+    {
+      "original": "Ratna's",
+      "normalized": "ratna's",
+      "compact": "ratnas",
+      "prefixes": [
+        "rat",
+        "ratna",
+        "ratna's"
+      ],
+      "phonetic": "R352"
+    },
+    {
+      "original": "AWAL",
+      "normalized": "awal",
+      "compact": "awal",
+      "prefixes": [
+        "awa",
+        "awal",
+        "awal"
+      ],
+      "phonetic": "A400"
+    },
+    {
+      "original": "ADITI TOYS",
+      "normalized": "aditi toys",
+      "compact": "adititoys",
+      "prefixes": [
+        "adi",
+        "aditi",
+        "aditi t"
+      ],
+      "phonetic": "A332"
+    },
+    {
+      "original": "Apsara",
+      "normalized": "apsara",
+      "compact": "apsara",
+      "prefixes": [
+        "aps",
+        "apsar",
+        "apsara"
+      ],
+      "phonetic": "A126"
+    },
+    {
+      "original": "Eat Atlas",
+      "normalized": "eat atlas",
+      "compact": "eatatlas",
+      "prefixes": [
+        "eat",
+        "eat a",
+        "eat atl"
+      ],
+      "phonetic": "E334"
+    },
+    {
+      "original": "Sameo",
+      "normalized": "sameo",
+      "compact": "sameo",
+      "prefixes": [
+        "sam",
+        "sameo",
+        "sameo"
+      ],
+      "phonetic": "S500"
+    },
+    {
+      "original": "Onshine",
+      "normalized": "onshine",
+      "compact": "onshine",
+      "prefixes": [
+        "ons",
+        "onshi",
+        "onshine"
+      ],
+      "phonetic": "O525"
+    },
+    {
+      "original": "ZD Toys",
+      "normalized": "zd toys",
+      "compact": "zdtoys",
+      "prefixes": [
+        "zd ",
+        "zd to",
+        "zd toys"
+      ],
+      "phonetic": "Z332"
+    },
+    {
+      "original": "KIOS",
+      "normalized": "kios",
+      "compact": "kios",
+      "prefixes": [
+        "kio",
+        "kios",
+        "kios"
+      ],
+      "phonetic": "K000"
+    },
+    {
+      "original": "Tinkerbuds",
+      "normalized": "tinkerbuds",
+      "compact": "tinkerbuds",
+      "prefixes": [
+        "tin",
+        "tinke",
+        "tinkerb"
+      ],
+      "phonetic": "T526"
+    },
+    {
+      "original": "Bownbee",
+      "normalized": "bownbee",
+      "compact": "bownbee",
+      "prefixes": [
+        "bow",
+        "bownb",
+        "bownbee"
+      ],
+      "phonetic": "B510"
+    },
+    {
+      "original": "Elves",
+      "normalized": "elves",
+      "compact": "elves",
+      "prefixes": [
+        "elv",
+        "elves",
+        "elves"
+      ],
+      "phonetic": "E412"
+    },
+    {
+      "original": "Unomax",
+      "normalized": "unomax",
+      "compact": "unomax",
+      "prefixes": [
+        "uno",
+        "unoma",
+        "unomax"
+      ],
+      "phonetic": "U520"
+    },
+    {
+      "original": "Nataraj",
+      "normalized": "nataraj",
+      "compact": "nataraj",
+      "prefixes": [
+        "nat",
+        "natar",
+        "nataraj"
+      ],
+      "phonetic": "N362"
+    },
+    {
+      "original": "KREEDA",
+      "normalized": "kreeda",
+      "compact": "kreeda",
+      "prefixes": [
+        "kre",
+        "kreed",
+        "kreeda"
+      ],
+      "phonetic": "K630"
+    },
+    {
+      "original": "Lifelong",
+      "normalized": "lifelong",
+      "compact": "lifelong",
+      "prefixes": [
+        "lif",
+        "lifel",
+        "lifelon"
+      ],
+      "phonetic": "L145"
+    },
+    {
+      "original": "Clt.s",
+      "normalized": "clt.s",
+      "compact": "clts",
+      "prefixes": [
+        "clt",
+        "clt.s",
+        "clt.s"
+      ],
+      "phonetic": "C432"
+    },
+    {
+      "original": "Jollyora",
+      "normalized": "jollyora",
+      "compact": "jollyora",
+      "prefixes": [
+        "jol",
+        "jolly",
+        "jollyor"
+      ],
+      "phonetic": "J460"
+    },
+    {
+      "original": "Bumtum",
+      "normalized": "bumtum",
+      "compact": "bumtum",
+      "prefixes": [
+        "bum",
+        "bumtu",
+        "bumtum"
+      ],
+      "phonetic": "B535"
+    },
+    {
+      "original": "Maped",
+      "normalized": "maped",
+      "compact": "maped",
+      "prefixes": [
+        "map",
+        "maped",
+        "maped"
+      ],
+      "phonetic": "M130"
+    },
+    {
+      "original": "Galact",
+      "normalized": "galact",
+      "compact": "galact",
+      "prefixes": [
+        "gal",
+        "galac",
+        "galact"
+      ],
+      "phonetic": "G423"
+    },
+    {
+      "original": "Mylo",
+      "normalized": "mylo",
+      "compact": "mylo",
+      "prefixes": [
+        "myl",
+        "mylo",
+        "mylo"
+      ],
+      "phonetic": "M400"
+    },
+    {
+      "original": "Johnson's Baby",
+      "normalized": "johnson's baby",
+      "compact": "johnsonsbaby",
+      "prefixes": [
+        "joh",
+        "johns",
+        "johnson"
+      ],
+      "phonetic": "J525"
+    },
+    {
+      "original": "Similac",
+      "normalized": "similac",
+      "compact": "similac",
+      "prefixes": [
+        "sim",
+        "simil",
+        "similac"
+      ],
+      "phonetic": "S542"
+    },
+    {
+      "original": "Blix",
+      "normalized": "blix",
+      "compact": "blix",
+      "prefixes": [
+        "bli",
+        "blix",
+        "blix"
+      ],
+      "phonetic": "B420"
+    },
+    {
+      "original": "Zephyr",
+      "normalized": "zephyr",
+      "compact": "zephyr",
+      "prefixes": [
+        "zep",
+        "zephy",
+        "zephyr"
+      ],
+      "phonetic": "Z160"
+    },
+    {
+      "original": "Dabur",
+      "normalized": "dabur",
+      "compact": "dabur",
+      "prefixes": [
+        "dab",
+        "dabur",
+        "dabur"
+      ],
+      "phonetic": "D160"
+    },
+    {
+      "original": "Hamdard",
+      "normalized": "hamdard",
+      "compact": "hamdard",
+      "prefixes": [
+        "ham",
+        "hamda",
+        "hamdard"
+      ],
+      "phonetic": "H536"
+    },
+    {
+      "original": "Borosil",
+      "normalized": "borosil",
+      "compact": "borosil",
+      "prefixes": [
+        "bor",
+        "boros",
+        "borosil"
+      ],
+      "phonetic": "B624"
+    },
+    {
+      "original": "Raj Comics",
+      "normalized": "raj comics",
+      "compact": "rajcomics",
+      "prefixes": [
+        "raj",
+        "raj c",
+        "raj com"
+      ],
+      "phonetic": "R225"
+    },
+    {
+      "original": "Alpha Comics",
+      "normalized": "alpha comics",
+      "compact": "alphacomics",
+      "prefixes": [
+        "alp",
+        "alpha",
+        "alpha c"
+      ],
+      "phonetic": "A412"
+    },
+    {
+      "original": "The Write Order",
+      "normalized": "the write order",
+      "compact": "thewriteorder",
+      "prefixes": [
+        "the",
+        "the w",
+        "the wri"
+      ],
+      "phonetic": "T636"
+    },
+    {
+      "original": "indiepress",
+      "normalized": "indiepress",
+      "compact": "indiepress",
+      "prefixes": [
+        "ind",
+        "indie",
+        "indiepr"
+      ],
+      "phonetic": "I531"
+    },
+    {
+      "original": "Shakti Comics",
+      "normalized": "shakti comics",
+      "compact": "shakticomics",
+      "prefixes": [
+        "sha",
+        "shakt",
+        "shakti "
+      ],
+      "phonetic": "S325"
+    },
+    {
+      "original": "Woodbee",
+      "normalized": "woodbee",
+      "compact": "woodbee",
+      "prefixes": [
+        "woo",
+        "woodb",
+        "woodbee"
+      ],
+      "phonetic": "W310"
+    },
+    {
+      "original": "Bella Moda",
+      "normalized": "bella moda",
+      "compact": "bellamoda",
+      "prefixes": [
+        "bel",
+        "bella",
+        "bella m"
+      ],
+      "phonetic": "B453"
+    },
+    {
+      "original": "Kico",
+      "normalized": "kico",
+      "compact": "kico",
+      "prefixes": [
+        "kic",
+        "kico",
+        "kico"
+      ],
+      "phonetic": "K000"
+    },
+    {
+      "original": "Lil Lollipop",
+      "normalized": "lil lollipop",
+      "compact": "lillollipop",
+      "prefixes": [
+        "lil",
+        "lil l",
+        "lil lol"
+      ],
+      "phonetic": "L441"
+    },
+    {
+      "original": "Sophie La Girafe",
+      "normalized": "sophie la girafe",
+      "compact": "sophielagirafe",
+      "prefixes": [
+        "sop",
+        "sophi",
+        "sophie "
+      ],
+      "phonetic": "S142"
+    },
+    {
+      "original": "BRANDONN",
+      "normalized": "brandonn",
+      "compact": "brandonn",
+      "prefixes": [
+        "bra",
+        "brand",
+        "brandon"
+      ],
+      "phonetic": "B653"
+    },
+    {
+      "original": "Brachy",
+      "normalized": "brachy",
+      "compact": "brachy",
+      "prefixes": [
+        "bra",
+        "brach",
+        "brachy"
+      ],
+      "phonetic": "B620"
+    },
+    {
+      "original": "Om Books",
+      "normalized": "om books",
+      "compact": "ombooks",
+      "prefixes": [
+        "om ",
+        "om bo",
+        "om book"
+      ],
+      "phonetic": "O512"
+    },
+    {
+      "original": "Yellow Apple",
+      "normalized": "yellow apple",
+      "compact": "yellowapple",
+      "prefixes": [
+        "yel",
+        "yello",
+        "yellow "
+      ],
+      "phonetic": "Y414"
+    },
+    {
+      "original": "Honeywell",
+      "normalized": "honeywell",
+      "compact": "honeywell",
+      "prefixes": [
+        "hon",
+        "honey",
+        "honeywe"
+      ],
+      "phonetic": "H540"
+    },
+    {
+      "original": "Montex",
+      "normalized": "montex",
+      "compact": "montex",
+      "prefixes": [
+        "mon",
+        "monte",
+        "montex"
+      ],
+      "phonetic": "M320"
+    },
+    {
+      "original": "Stol'n",
+      "normalized": "stol'n",
+      "compact": "stoln",
+      "prefixes": [
+        "sto",
+        "stol'",
+        "stol'n"
+      ],
+      "phonetic": "S345"
+    },
+    {
+      "original": "Pingo Play",
+      "normalized": "pingo play",
+      "compact": "pingoplay",
+      "prefixes": [
+        "pin",
+        "pingo",
+        "pingo p"
+      ],
+      "phonetic": "P521"
+    },
+    {
+      "original": "Speedo",
+      "normalized": "speedo",
+      "compact": "speedo",
+      "prefixes": [
+        "spe",
+        "speed",
+        "speedo"
+      ],
+      "phonetic": "S130"
+    },
+    {
+      "original": "KV Toys",
+      "normalized": "kv toys",
+      "compact": "kvtoys",
+      "prefixes": [
+        "kv ",
+        "kv to",
+        "kv toys"
+      ],
+      "phonetic": "K132"
+    },
+    {
+      "original": "Crane Baby",
+      "normalized": "crane baby",
+      "compact": "cranebaby",
+      "prefixes": [
+        "cra",
+        "crane",
+        "crane b"
+      ],
+      "phonetic": "C651"
+    },
+    {
+      "original": "Reynolds",
+      "normalized": "reynolds",
+      "compact": "reynolds",
+      "prefixes": [
+        "rey",
+        "reyno",
+        "reynold"
+      ],
+      "phonetic": "R543"
+    },
+    {
+      "original": "Pilot",
+      "normalized": "pilot",
+      "compact": "pilot",
+      "prefixes": [
+        "pil",
+        "pilot",
+        "pilot"
+      ],
+      "phonetic": "P430"
+    },
+    {
+      "original": "Kangaro",
+      "normalized": "kangaro",
+      "compact": "kangaro",
+      "prefixes": [
+        "kan",
+        "kanga",
+        "kangaro"
+      ],
+      "phonetic": "K526"
+    },
+    {
+      "original": "Centy",
+      "normalized": "centy",
+      "compact": "centy",
+      "prefixes": [
+        "cen",
+        "centy",
+        "centy"
+      ],
+      "phonetic": "C530"
+    },
+    {
+      "original": "Pidilite",
+      "normalized": "pidilite",
+      "compact": "pidilite",
+      "prefixes": [
+        "pid",
+        "pidil",
+        "pidilit"
+      ],
+      "phonetic": "P343"
+    },
+    {
+      "original": "Staedtler",
+      "normalized": "staedtler",
+      "compact": "staedtler",
+      "prefixes": [
+        "sta",
+        "staed",
+        "staedtl"
+      ],
+      "phonetic": "S334"
+    },
+    {
+      "original": "Spiky",
+      "normalized": "spiky",
+      "compact": "spiky",
+      "prefixes": [
+        "spi",
+        "spiky",
+        "spiky"
+      ],
+      "phonetic": "S120"
+    },
+    {
+      "original": "Signutra Nutramil",
+      "normalized": "signutra nutramil",
+      "compact": "signutranutramil",
+      "prefixes": [
+        "sig",
+        "signu",
+        "signutr"
+      ],
+      "phonetic": "S536"
+    },
+    {
+      "original": "Playzu",
+      "normalized": "playzu",
+      "compact": "playzu",
+      "prefixes": [
+        "pla",
+        "playz",
+        "playzu"
+      ],
+      "phonetic": "P420"
+    },
+    {
+      "original": "Maple Press",
+      "normalized": "maple press",
+      "compact": "maplepress",
+      "prefixes": [
+        "map",
+        "maple",
+        "maple p"
+      ],
+      "phonetic": "M141"
+    },
+    {
+      "original": "Toonyport",
+      "normalized": "toonyport",
+      "compact": "toonyport",
+      "prefixes": [
+        "too",
+        "toony",
+        "toonypo"
+      ],
+      "phonetic": "T516"
+    },
+    {
+      "original": "Nat Habit",
+      "normalized": "nat habit",
+      "compact": "nathabit",
+      "prefixes": [
+        "nat",
+        "nat h",
+        "nat hab"
+      ],
+      "phonetic": "N313"
+    },
+    {
+      "original": "Protinex",
+      "normalized": "protinex",
+      "compact": "protinex",
+      "prefixes": [
+        "pro",
+        "proti",
+        "protine"
+      ],
+      "phonetic": "P635"
+    },
+    {
+      "original": "Kids On Board",
+      "normalized": "kids on board",
+      "compact": "kidsonboard",
+      "prefixes": [
+        "kid",
+        "kids ",
+        "kids on"
+      ],
+      "phonetic": "K325"
+    },
+    {
+      "original": "Mustela",
+      "normalized": "mustela",
+      "compact": "mustela",
+      "prefixes": [
+        "mus",
+        "muste",
+        "mustela"
+      ],
+      "phonetic": "M234"
+    },
+    {
+      "original": "Trisu",
+      "normalized": "trisu",
+      "compact": "trisu",
+      "prefixes": [
+        "tri",
+        "trisu",
+        "trisu"
+      ],
+      "phonetic": "T620"
+    },
+    {
+      "original": "Tiny Bugs",
+      "normalized": "tiny bugs",
+      "compact": "tinybugs",
+      "prefixes": [
+        "tin",
+        "tiny ",
+        "tiny bu"
+      ],
+      "phonetic": "T512"
+    },
+    {
+      "original": "Little Joys",
+      "normalized": "little joys",
+      "compact": "littlejoys",
+      "prefixes": [
+        "lit",
+        "littl",
+        "little "
+      ],
+      "phonetic": "L342"
+    },
+    {
+      "original": "Mama Earth",
+      "normalized": "mama earth",
+      "compact": "mamaearth",
+      "prefixes": [
+        "mam",
+        "mama ",
+        "mama ea"
+      ],
+      "phonetic": "M630"
+    },
+    {
+      "original": "Asthetika",
+      "normalized": "asthetika",
+      "compact": "asthetika",
+      "prefixes": [
+        "ast",
+        "asthe",
+        "astheti"
+      ],
+      "phonetic": "A232"
+    },
+    {
+      "original": "Lansinoh",
+      "normalized": "lansinoh",
+      "compact": "lansinoh",
+      "prefixes": [
+        "lan",
+        "lansi",
+        "lansino"
+      ],
+      "phonetic": "L525"
+    },
+    {
+      "original": "Lycot",
+      "normalized": "lycot",
+      "compact": "lycot",
+      "prefixes": [
+        "lyc",
+        "lycot",
+        "lycot"
+      ],
+      "phonetic": "L230"
+    },
+    {
+      "original": "Huggies",
+      "normalized": "huggies",
+      "compact": "huggies",
+      "prefixes": [
+        "hug",
+        "huggi",
+        "huggies"
+      ],
+      "phonetic": "H220"
+    },
+    {
+      "original": "Jockey",
+      "normalized": "jockey",
+      "compact": "jockey",
+      "prefixes": [
+        "joc",
+        "jocke",
+        "jockey"
+      ],
+      "phonetic": "J200"
+    },
+    {
+      "original": "Gubbachhi",
+      "normalized": "gubbachhi",
+      "compact": "gubbachhi",
+      "prefixes": [
+        "gub",
+        "gubba",
+        "gubbach"
+      ],
+      "phonetic": "G120"
+    },
+    {
+      "original": "Webby",
+      "normalized": "webby",
+      "compact": "webby",
+      "prefixes": [
+        "web",
+        "webby",
+        "webby"
+      ],
+      "phonetic": "W100"
+    },
+    {
+      "original": "ToboToons",
+      "normalized": "tobotoons",
+      "compact": "tobotoons",
+      "prefixes": [
+        "tob",
+        "tobot",
+        "tobotoo"
+      ],
+      "phonetic": "T135"
+    },
+    {
+      "original": "Smartivity",
+      "normalized": "smartivity",
+      "compact": "smartivity",
+      "prefixes": [
+        "sma",
+        "smart",
+        "smartiv"
+      ],
+      "phonetic": "S563"
+    },
+    {
+      "original": "EdaBaby",
+      "normalized": "edababy",
+      "compact": "edababy",
+      "prefixes": [
+        "eda",
+        "edaba",
+        "edababy"
+      ],
+      "phonetic": "E310"
+    },
+    {
+      "original": "Hopscotch",
+      "normalized": "hopscotch",
+      "compact": "hopscotch",
+      "prefixes": [
+        "hop",
+        "hopsc",
+        "hopscot"
+      ],
+      "phonetic": "H123"
+    },
+    {
+      "original": "Nutribray",
+      "normalized": "nutribray",
+      "compact": "nutribray",
+      "prefixes": [
+        "nut",
+        "nutri",
+        "nutribr"
+      ],
+      "phonetic": "N361"
+    },
+    {
+      "original": "Pexpo",
+      "normalized": "pexpo",
+      "compact": "pexpo",
+      "prefixes": [
+        "pex",
+        "pexpo",
+        "pexpo"
+      ],
+      "phonetic": "P210"
+    },
+    {
+      "original": "Dr Brown",
+      "normalized": "dr brown",
+      "compact": "drbrown",
+      "prefixes": [
+        "dr ",
+        "dr br",
+        "dr brow"
+      ],
+      "phonetic": "D616"
+    },
+    {
+      "original": "Panda's Box",
+      "normalized": "panda's box",
+      "compact": "pandasbox",
+      "prefixes": [
+        "pan",
+        "panda",
+        "panda's"
+      ],
+      "phonetic": "P532"
+    },
+    {
+      "original": "CRAVINO",
+      "normalized": "cravino",
+      "compact": "cravino",
+      "prefixes": [
+        "cra",
+        "cravi",
+        "cravino"
+      ],
+      "phonetic": "C615"
+    },
+    {
+      "original": "Nomado",
+      "normalized": "nomado",
+      "compact": "nomado",
+      "prefixes": [
+        "nom",
+        "nomad",
+        "nomado"
+      ],
+      "phonetic": "N300"
+    },
+    {
+      "original": "Prekies",
+      "normalized": "prekies",
+      "compact": "prekies",
+      "prefixes": [
+        "pre",
+        "preki",
+        "prekies"
+      ],
+      "phonetic": "P620"
+    },
+    {
+      "original": "Cherry Crumble",
+      "normalized": "cherry crumble",
+      "compact": "cherrycrumble",
+      "prefixes": [
+        "che",
+        "cherr",
+        "cherry "
+      ],
+      "phonetic": "C626"
+    },
+    {
+      "original": "Penguin",
+      "normalized": "penguin",
+      "compact": "penguin",
+      "prefixes": [
+        "pen",
+        "pengu",
+        "penguin"
+      ],
+      "phonetic": "P525"
+    },
+    {
+      "original": "Beaba",
+      "normalized": "beaba",
+      "compact": "beaba",
+      "prefixes": [
+        "bea",
+        "beaba",
+        "beaba"
+      ],
+      "phonetic": "B000"
+    },
+    {
+      "original": "Hopits",
+      "normalized": "hopits",
+      "compact": "hopits",
+      "prefixes": [
+        "hop",
+        "hopit",
+        "hopits"
+      ],
+      "phonetic": "H132"
+    },
+    {
+      "original": "Mechanix",
+      "normalized": "mechanix",
+      "compact": "mechanix",
+      "prefixes": [
+        "mec",
+        "mecha",
+        "mechani"
+      ],
+      "phonetic": "M252"
+    },
+    {
+      "original": "Bambo Nature",
+      "normalized": "bambo nature",
+      "compact": "bambonature",
+      "prefixes": [
+        "bam",
+        "bambo",
+        "bambo n"
+      ],
+      "phonetic": "B515"
+    },
+    {
+      "original": "The Cradle Box",
+      "normalized": "the cradle box",
+      "compact": "thecradlebox",
+      "prefixes": [
+        "the",
+        "the c",
+        "the cra"
+      ],
+      "phonetic": "T263"
+    },
+    {
+      "original": "Softsens Baby",
+      "normalized": "softsens baby",
+      "compact": "softsensbaby",
+      "prefixes": [
+        "sof",
+        "softs",
+        "softsen"
+      ],
+      "phonetic": "S132"
+    },
+    {
+      "original": "Dreamland",
+      "normalized": "dreamland",
+      "compact": "dreamland",
+      "prefixes": [
+        "dre",
+        "dream",
+        "dreamla"
+      ],
+      "phonetic": "D654"
+    },
+    {
+      "original": "Pinwheel",
+      "normalized": "pinwheel",
+      "compact": "pinwheel",
+      "prefixes": [
+        "pin",
+        "pinwh",
+        "pinwhee"
+      ],
+      "phonetic": "P540"
+    },
+    {
+      "original": "Abracadabra",
+      "normalized": "abracadabra",
+      "compact": "abracadabra",
+      "prefixes": [
+        "abr",
+        "abrac",
+        "abracad"
+      ],
+      "phonetic": "A162"
+    },
+    {
+      "original": "BabyOrgano",
+      "normalized": "babyorgano",
+      "compact": "babyorgano",
+      "prefixes": [
+        "bab",
+        "babyo",
+        "babyorg"
+      ],
+      "phonetic": "B625"
+    },
+    {
+      "original": "Miniture",
+      "normalized": "miniture",
+      "compact": "miniture",
+      "prefixes": [
+        "min",
+        "minit",
+        "minitur"
+      ],
+      "phonetic": "M360"
+    },
+    {
+      "original": "Janitri",
+      "normalized": "janitri",
+      "compact": "janitri",
+      "prefixes": [
+        "jan",
+        "janit",
+        "janitri"
+      ],
+      "phonetic": "J536"
+    },
+    {
+      "original": "Cuddly Buddly",
+      "normalized": "cuddly buddly",
+      "compact": "cuddlybuddly",
+      "prefixes": [
+        "cud",
+        "cuddl",
+        "cuddly "
+      ],
+      "phonetic": "C341"
+    },
+    {
+      "original": "Aveeno",
+      "normalized": "aveeno",
+      "compact": "aveeno",
+      "prefixes": [
+        "ave",
+        "aveen",
+        "aveeno"
+      ],
+      "phonetic": "A150"
+    },
+    {
+      "original": "Bonjour",
+      "normalized": "bonjour",
+      "compact": "bonjour",
+      "prefixes": [
+        "bon",
+        "bonjo",
+        "bonjour"
+      ],
+      "phonetic": "B526"
+    },
+    {
+      "original": "Aptamil",
+      "normalized": "aptamil",
+      "compact": "aptamil",
+      "prefixes": [
+        "apt",
+        "aptam",
+        "aptamil"
+      ],
+      "phonetic": "A135"
+    },
+    {
+      "original": "Think Wittsy",
+      "normalized": "think wittsy",
+      "compact": "thinkwittsy",
+      "prefixes": [
+        "thi",
+        "think",
+        "think w"
+      ],
+      "phonetic": "T523"
+    },
+    {
+      "original": "Kidbea",
+      "normalized": "kidbea",
+      "compact": "kidbea",
+      "prefixes": [
+        "kid",
+        "kidbe",
+        "kidbea"
+      ],
+      "phonetic": "K310"
+    },
+    {
+      "original": "Little Surprise Box",
+      "normalized": "little surprise box",
+      "compact": "littlesurprisebox",
+      "prefixes": [
+        "lit",
+        "littl",
+        "little "
+      ],
+      "phonetic": "L342"
+    },
+    {
+      "original": "Kidspark",
+      "normalized": "kidspark",
+      "compact": "kidspark",
+      "prefixes": [
+        "kid",
+        "kidsp",
+        "kidspar"
+      ],
+      "phonetic": "K321"
+    },
+    {
+      "original": "My Milestones",
+      "normalized": "my milestones",
+      "compact": "mymilestones",
+      "prefixes": [
+        "my ",
+        "my mi",
+        "my mile"
+      ],
+      "phonetic": "M542"
+    },
+    {
+      "original": "Qvink",
+      "normalized": "qvink",
+      "compact": "qvink",
+      "prefixes": [
+        "qvi",
+        "qvink",
+        "qvink"
+      ],
+      "phonetic": "Q152"
+    },
+    {
+      "original": "Woonie",
+      "normalized": "woonie",
+      "compact": "woonie",
+      "prefixes": [
+        "woo",
+        "wooni",
+        "woonie"
+      ],
+      "phonetic": "W500"
+    },
+    {
+      "original": "BabyPro",
+      "normalized": "babypro",
+      "compact": "babypro",
+      "prefixes": [
+        "bab",
+        "babyp",
+        "babypro"
+      ],
+      "phonetic": "B160"
+    },
+    {
+      "original": "NUSYL",
+      "normalized": "nusyl",
+      "compact": "nusyl",
+      "prefixes": [
+        "nus",
+        "nusyl",
+        "nusyl"
+      ],
+      "phonetic": "N240"
+    },
+    {
+      "original": "Perfora",
+      "normalized": "perfora",
+      "compact": "perfora",
+      "prefixes": [
+        "per",
+        "perfo",
+        "perfora"
+      ],
+      "phonetic": "P616"
+    },
+    {
+      "original": "KHI",
+      "normalized": "khi",
+      "compact": "khi",
+      "prefixes": [
+        "khi",
+        "khi",
+        "khi"
+      ],
+      "phonetic": "K000"
+    },
+    {
+      "original": "Dollar",
+      "normalized": "dollar",
+      "compact": "dollar",
+      "prefixes": [
+        "dol",
+        "dolla",
+        "dollar"
+      ],
+      "phonetic": "D460"
+    },
+    {
+      "original": "Kidley Gold",
+      "normalized": "kidley gold",
+      "compact": "kidleygold",
+      "prefixes": [
+        "kid",
+        "kidle",
+        "kidley "
+      ],
+      "phonetic": "K342"
+    },
+    {
+      "original": "ShimmerTots",
+      "normalized": "shimmertots",
+      "compact": "shimmertots",
+      "prefixes": [
+        "shi",
+        "shimm",
+        "shimmer"
+      ],
+      "phonetic": "S563"
+    },
+    {
+      "original": "STIM Junior",
+      "normalized": "stim junior",
+      "compact": "stimjunior",
+      "prefixes": [
+        "sti",
+        "stim ",
+        "stim ju"
+      ],
+      "phonetic": "S352"
+    },
+    {
+      "original": "Whimsy",
+      "normalized": "whimsy",
+      "compact": "whimsy",
+      "prefixes": [
+        "whi",
+        "whims",
+        "whimsy"
+      ],
+      "phonetic": "W520"
+    },
+    {
+      "original": "UpTodd",
+      "normalized": "uptodd",
+      "compact": "uptodd",
+      "prefixes": [
+        "upt",
+        "uptod",
+        "uptodd"
+      ],
+      "phonetic": "U133"
+    },
+    {
+      "original": "Yellow Naturals",
+      "normalized": "yellow naturals",
+      "compact": "yellownaturals",
+      "prefixes": [
+        "yel",
+        "yello",
+        "yellow "
+      ],
+      "phonetic": "Y453"
+    },
+    {
+      "original": "Vicks",
+      "normalized": "vicks",
+      "compact": "vicks",
+      "prefixes": [
+        "vic",
+        "vicks",
+        "vicks"
+      ],
+      "phonetic": "V220"
+    },
+    {
+      "original": "Oral-B",
+      "normalized": "oral-b",
+      "compact": "oralb",
+      "prefixes": [
+        "ora",
+        "oral-",
+        "oral-b"
+      ],
+      "phonetic": "O641"
+    },
+    {
+      "original": "Wonder Toys",
+      "normalized": "wonder toys",
+      "compact": "wondertoys",
+      "prefixes": [
+        "won",
+        "wonde",
+        "wonder "
+      ],
+      "phonetic": "W536"
+    },
+    {
+      "original": "Ed-a-Mamma",
+      "normalized": "ed-a-mamma",
+      "compact": "edamamma",
+      "prefixes": [
+        "ed-",
+        "ed-a-",
+        "ed-a-ma"
+      ],
+      "phonetic": "E355"
+    },
+    {
+      "original": "Sellet Toys",
+      "normalized": "sellet toys",
+      "compact": "sellettoys",
+      "prefixes": [
+        "sel",
+        "selle",
+        "sellet "
+      ],
+      "phonetic": "S433"
+    },
+    {
+      "original": "TheBudsLife",
+      "normalized": "thebudslife",
+      "compact": "thebudslife",
+      "prefixes": [
+        "the",
+        "thebu",
+        "thebuds"
+      ],
+      "phonetic": "T132"
+    },
+    {
+      "original": "Amul",
+      "normalized": "amul",
+      "compact": "amul",
+      "prefixes": [
+        "amu",
+        "amul",
+        "amul"
+      ],
+      "phonetic": "A540"
+    },
+    {
+      "original": "Majestic Book",
+      "normalized": "majestic book",
+      "compact": "majesticbook",
+      "prefixes": [
+        "maj",
+        "majes",
+        "majesti"
+      ],
+      "phonetic": "M232"
+    },
+    {
+      "original": "Tulika",
+      "normalized": "tulika",
+      "compact": "tulika",
+      "prefixes": [
+        "tul",
+        "tulik",
+        "tulika"
+      ],
+      "phonetic": "T420"
+    },
+    {
+      "original": "Pegasus",
+      "normalized": "pegasus",
+      "compact": "pegasus",
+      "prefixes": [
+        "peg",
+        "pegas",
+        "pegasus"
+      ],
+      "phonetic": "P220"
+    },
+    {
+      "original": "Parragon",
+      "normalized": "parragon",
+      "compact": "parragon",
+      "prefixes": [
+        "par",
+        "parra",
+        "parrago"
+      ],
+      "phonetic": "P625"
+    },
+    {
+      "original": "Westland",
+      "normalized": "westland",
+      "compact": "westland",
+      "prefixes": [
+        "wes",
+        "westl",
+        "westlan"
+      ],
+      "phonetic": "W234"
+    },
+    {
+      "original": "Little Sherpa",
+      "normalized": "little sherpa",
+      "compact": "littlesherpa",
+      "prefixes": [
+        "lit",
+        "littl",
+        "little "
+      ],
+      "phonetic": "L342"
+    },
+    {
+      "original": "Little Croche Creations",
+      "normalized": "little croche creations",
+      "compact": "littlecrochecreations",
+      "prefixes": [
+        "lit",
+        "littl",
+        "little "
+      ],
+      "phonetic": "L342"
+    },
+    {
+      "original": "Centrum",
+      "normalized": "centrum",
+      "compact": "centrum",
+      "prefixes": [
+        "cen",
+        "centr",
+        "centrum"
+      ],
+      "phonetic": "C536"
+    },
+    {
+      "original": "Pediasure",
+      "normalized": "pediasure",
+      "compact": "pediasure",
+      "prefixes": [
+        "ped",
+        "pedia",
+        "pediasu"
+      ],
+      "phonetic": "P326"
+    },
+    {
+      "original": "Frank",
+      "normalized": "frank",
+      "compact": "frank",
+      "prefixes": [
+        "fra",
+        "frank",
+        "frank"
+      ],
+      "phonetic": "F652"
+    },
+    {
+      "original": "Tuco Kids",
+      "normalized": "tuco kids",
+      "compact": "tucokids",
+      "prefixes": [
+        "tuc",
+        "tuco ",
+        "tuco ki"
+      ],
+      "phonetic": "T223"
+    },
+    {
+      "original": "Vixen",
+      "normalized": "vixen",
+      "compact": "vixen",
+      "prefixes": [
+        "vix",
+        "vixen",
+        "vixen"
+      ],
+      "phonetic": "V250"
+    },
+    {
+      "original": "Begin Bird",
+      "normalized": "begin bird",
+      "compact": "beginbird",
+      "prefixes": [
+        "beg",
+        "begin",
+        "begin b"
+      ],
+      "phonetic": "B251"
+    },
+    {
+      "original": "Growgether",
+      "normalized": "growgether",
+      "compact": "growgether",
+      "prefixes": [
+        "gro",
+        "growg",
+        "growget"
+      ],
+      "phonetic": "G623"
+    },
+    {
+      "original": "Baby Gear",
+      "normalized": "baby gear",
+      "compact": "babygear",
+      "prefixes": [
+        "bab",
+        "baby ",
+        "baby ge"
+      ],
+      "phonetic": "B260"
+    },
+    {
+      "original": "Bebe Burp",
+      "normalized": "bebe burp",
+      "compact": "bebeburp",
+      "prefixes": [
+        "beb",
+        "bebe ",
+        "bebe bu"
+      ],
+      "phonetic": "B161"
+    },
+    {
+      "original": "Child World",
+      "normalized": "child world",
+      "compact": "childworld",
+      "prefixes": [
+        "chi",
+        "child",
+        "child w"
+      ],
+      "phonetic": "C436"
+    },
+    {
+      "original": "Ladybird",
+      "normalized": "ladybird",
+      "compact": "ladybird",
+      "prefixes": [
+        "lad",
+        "ladyb",
+        "ladybir"
+      ],
+      "phonetic": "L316"
+    },
+    {
+      "original": "Rupa Publications",
+      "normalized": "rupa publications",
+      "compact": "rupapublications",
+      "prefixes": [
+        "rup",
+        "rupa ",
+        "rupa pu"
+      ],
+      "phonetic": "R114"
+    },
+    {
+      "original": "Rachel Bright",
+      "normalized": "rachel bright",
+      "compact": "rachelbright",
+      "prefixes": [
+        "rac",
+        "rache",
+        "rachel "
+      ],
+      "phonetic": "R241"
+    },
+    {
+      "original": "ACK",
+      "normalized": "ack",
+      "compact": "ack",
+      "prefixes": [
+        "ack",
+        "ack",
+        "ack"
+      ],
+      "phonetic": "A200"
+    },
+    {
+      "original": "Hello Friend",
+      "normalized": "hello friend",
+      "compact": "hellofriend",
+      "prefixes": [
+        "hel",
+        "hello",
+        "hello f"
+      ],
+      "phonetic": "H416"
+    },
+    {
+      "original": "Wonder House",
+      "normalized": "wonder house",
+      "compact": "wonderhouse",
+      "prefixes": [
+        "won",
+        "wonde",
+        "wonder "
+      ],
+      "phonetic": "W536"
+    },
+    {
+      "original": "Happa",
+      "normalized": "happa",
+      "compact": "happa",
+      "prefixes": [
+        "hap",
+        "happa",
+        "happa"
+      ],
+      "phonetic": "H100"
+    },
+    {
+      "original": "Bombay Pen Store",
+      "normalized": "bombay pen store",
+      "compact": "bombaypenstore",
+      "prefixes": [
+        "bom",
+        "bomba",
+        "bombay "
+      ],
+      "phonetic": "B511"
+    },
+    {
+      "original": "EIEIO",
+      "normalized": "eieio",
+      "compact": "eieio",
+      "prefixes": [
+        "eie",
+        "eieio",
+        "eieio"
+      ],
+      "phonetic": "E000"
+    },
+    {
+      "original": "Gladful",
+      "normalized": "gladful",
+      "compact": "gladful",
+      "prefixes": [
+        "gla",
+        "gladf",
+        "gladful"
+      ],
+      "phonetic": "G431"
+    },
+    {
+      "original": "Om Kidz",
+      "normalized": "om kidz",
+      "compact": "omkidz",
+      "prefixes": [
+        "om ",
+        "om ki",
+        "om kidz"
+      ],
+      "phonetic": "O523"
+    },
+    {
+      "original": "Mama Jama",
+      "normalized": "mama jama",
+      "compact": "mamajama",
+      "prefixes": [
+        "mam",
+        "mama ",
+        "mama ja"
+      ],
+      "phonetic": "M250"
+    }
+  ]
+}

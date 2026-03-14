@@ -1,0 +1,15 @@
+node_modules/
+.env
+*.log
+verify31_utf8.log
+verifyImages_out.log
+stress_test_results.log
+stress_test_results_utf8.log
+gen_images_out.log
+find_url.js
+check_image.js
+check_keys.js
+verifyImages.js
+debugAlgolia.js
+verify3.js
+.gemini/

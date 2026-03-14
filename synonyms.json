@@ -1,0 +1,505 @@
+[
+    {
+        "objectID": "syn-0",
+        "type": "synonym",
+        "synonyms": [
+            "soft toy",
+            "teddy"
+        ]
+    },
+    {
+        "objectID": "syn-1",
+        "type": "synonym",
+        "synonyms": [
+            "pencils",
+            "pencil"
+        ]
+    },
+    {
+        "objectID": "syn-2",
+        "type": "synonym",
+        "synonyms": [
+            "bicycle",
+            "cycle"
+        ]
+    },
+    {
+        "objectID": "syn-3",
+        "type": "synonym",
+        "synonyms": [
+            "clogs",
+            "crocs"
+        ]
+    },
+    {
+        "objectID": "syn-4",
+        "type": "synonym",
+        "synonyms": [
+            "t shirt",
+            "tshirt"
+        ]
+    },
+    {
+        "objectID": "syn-5",
+        "type": "synonym",
+        "synonyms": [
+            "head band",
+            "headband"
+        ]
+    },
+    {
+        "objectID": "syn-6",
+        "type": "synonym",
+        "synonyms": [
+            "peekaaboo",
+            "peekaboo"
+        ]
+    },
+    {
+        "objectID": "syn-7",
+        "type": "synonym",
+        "synonyms": [
+            "trolley bag",
+            "suitcase"
+        ]
+    },
+    {
+        "objectID": "syn-8",
+        "type": "synonym",
+        "synonyms": [
+            "almonds",
+            "almond"
+        ]
+    },
+    {
+        "objectID": "syn-9",
+        "type": "synonym",
+        "synonyms": [
+            "stationery",
+            "stationary"
+        ]
+    },
+    {
+        "objectID": "syn-10",
+        "type": "synonym",
+        "synonyms": [
+            "school bag",
+            "bag pack",
+            "bags",
+            "bag"
+        ]
+    },
+    {
+        "objectID": "syn-11",
+        "type": "synonym",
+        "synonyms": [
+            "bamboo nature",
+            "bambo nature"
+        ]
+    },
+    {
+        "objectID": "syn-12",
+        "type": "synonym",
+        "synonyms": [
+            "clothing",
+            "clothes"
+        ]
+    },
+    {
+        "objectID": "syn-13",
+        "type": "synonym",
+        "synonyms": [
+            "party wear",
+            "dress",
+            "frocks",
+            "frock"
+        ]
+    },
+    {
+        "objectID": "syn-14",
+        "type": "synonym",
+        "synonyms": [
+            "mamypokopants",
+            "mamy poko",
+            "mamypoko",
+            "mamy polo",
+            "many poko",
+            "many polo",
+            "mamy pokp"
+        ]
+    },
+    {
+        "objectID": "syn-15",
+        "type": "synonym",
+        "synonyms": [
+            "teethers",
+            "tether"
+        ]
+    },
+    {
+        "objectID": "syn-16",
+        "type": "synonym",
+        "synonyms": [
+            "tiffin",
+            "lunchbox",
+            "lunch box",
+            "lunch-box",
+            "dabba"
+        ]
+    },
+    {
+        "objectID": "syn-17",
+        "type": "synonym",
+        "synonyms": [
+            "diaper",
+            "daiper",
+            "diper",
+            "nappy",
+            "diaper pants",
+            "pampers",
+            "pamper",
+            "chaddi",
+            "diapers"
+        ]
+    },
+    {
+        "objectID": "syn-18",
+        "type": "synonym",
+        "synonyms": [
+            "bottle",
+            "feeder",
+            "sipper",
+            "milk bottle",
+            "water bottle",
+            "bottel"
+        ]
+    },
+    {
+        "objectID": "syn-19",
+        "type": "synonym",
+        "synonyms": [
+            "toothbrush",
+            "tooth brush",
+            "brush teeth"
+        ]
+    },
+    {
+        "objectID": "syn-20",
+        "type": "synonym",
+        "synonyms": [
+            "wipes",
+            "wet wipes",
+            "tissue",
+            "baby wipes"
+        ]
+    },
+    {
+        "objectID": "syn-21",
+        "type": "synonym",
+        "synonyms": [
+            "soap",
+            "body wash",
+            "bath wash"
+        ]
+    },
+    {
+        "objectID": "syn-22",
+        "type": "synonym",
+        "synonyms": [
+            "powder",
+            "baby powder",
+            "talcum"
+        ]
+    },
+    {
+        "objectID": "syn-23",
+        "type": "synonym",
+        "synonyms": [
+            "cream",
+            "lotion",
+            "moisturizer"
+        ]
+    },
+    {
+        "objectID": "syn-24",
+        "type": "synonym",
+        "synonyms": [
+            "bib",
+            "feeding bib",
+            "cloth bib"
+        ]
+    },
+    {
+        "objectID": "syn-25",
+        "type": "synonym",
+        "synonyms": [
+            "toy",
+            "toys",
+            "plaything"
+        ]
+    },
+    {
+        "objectID": "syn-26",
+        "type": "synonym",
+        "synonyms": [
+            "detergent",
+            "washing powder",
+            "liquid detergent"
+        ]
+    },
+    {
+        "objectID": "syn-27",
+        "type": "synonym",
+        "synonyms": [
+            "oil",
+            "massage oil",
+            "baby oil"
+        ]
+    },
+    {
+        "objectID": "syn-28",
+        "type": "synonym",
+        "synonyms": [
+            "blanket",
+            "wrap",
+            "swaddle",
+            "cover"
+        ]
+    },
+    {
+        "objectID": "syn-29",
+        "type": "synonym",
+        "synonyms": [
+            "mothersparsh",
+            "mother sparsh",
+            "mothersparsh baby"
+        ]
+    },
+    {
+        "objectID": "syn-30",
+        "type": "synonym",
+        "synonyms": [
+            "snack",
+            "food",
+            "chips",
+            "munchies"
+        ]
+    },
+    {
+        "objectID": "syn-31",
+        "type": "synonym",
+        "synonyms": [
+            "stroller",
+            "pram",
+            "baby cart"
+        ]
+    },
+    {
+        "objectID": "syn-32",
+        "type": "synonym",
+        "synonyms": [
+            "cradle",
+            "jhula",
+            "swing"
+        ]
+    },
+    {
+        "objectID": "syn-33",
+        "type": "synonym",
+        "synonyms": [
+            "bottle nipples",
+            "feeding nipples",
+            "teats"
+        ]
+    },
+    {
+        "objectID": "syn-34",
+        "type": "synonym",
+        "synonyms": [
+            "pacifier",
+            "soother",
+            "nipple"
+        ]
+    },
+    {
+        "objectID": "syn-35",
+        "type": "synonym",
+        "synonyms": [
+            "diaper bag",
+            "diaperbag",
+            "diaper rash cream"
+        ]
+    },
+    {
+        "objectID": "syn-36",
+        "type": "synonym",
+        "synonyms": [
+            "sipper",
+            "training cup",
+            "straw bottle"
+        ]
+    },
+    {
+        "objectID": "syn-37",
+        "type": "synonym",
+        "synonyms": [
+            "wipes cover",
+            "wipes case",
+            "tissue case"
+        ]
+    },
+    {
+        "objectID": "syn-38",
+        "type": "synonym",
+        "synonyms": [
+            "lotion",
+            "moisturizer",
+            "body cream"
+        ]
+    },
+    {
+        "objectID": "syn-39",
+        "type": "synonym",
+        "synonyms": [
+            "nan",
+            "nan pro",
+            "nanpro"
+        ]
+    },
+    {
+        "objectID": "syn-40",
+        "type": "synonym",
+        "synonyms": [
+            "car",
+            "vehicle",
+            "gaadi",
+            "toy"
+        ]
+    },
+    {
+        "objectID": "syn-41",
+        "type": "synonym",
+        "synonyms": [
+            "cap",
+            "caps",
+            "topi"
+        ]
+    },
+    {
+        "objectID": "syn-42",
+        "type": "synonym",
+        "synonyms": [
+            "hot wheels",
+            "hotwheels",
+            "hotwheel",
+            "hot wheel"
+        ]
+    },
+    {
+        "objectID": "syn-43",
+        "type": "synonym",
+        "synonyms": [
+            "skip hop",
+            "skiphop",
+            "skiphops",
+            "skip hpos"
+        ]
+    },
+    {
+        "objectID": "syn-44",
+        "type": "synonym",
+        "synonyms": [
+            "l.o.t diesel",
+            "l.o.t",
+            "lot"
+        ]
+    },
+    {
+        "objectID": "syn-45",
+        "type": "synonym",
+        "synonyms": [
+            "beginbird",
+            "begin bird"
+        ]
+    },
+    {
+        "objectID": "syn-46",
+        "type": "synonym",
+        "synonyms": [
+            "stockings",
+            "tights",
+            "stocking",
+            "tight"
+        ]
+    },
+    {
+        "objectID": "syn-47",
+        "type": "synonym",
+        "synonyms": [
+            "colours",
+            "colour",
+            "color",
+            "crayon",
+            "crayons",
+            "colors"
+        ]
+    },
+    {
+        "objectID": "syn-48",
+        "type": "synonym",
+        "synonyms": [
+            "warmer",
+            "thermals",
+            "thermal",
+            "warmers"
+        ]
+    },
+    {
+        "objectID": "syn-49",
+        "type": "synonym",
+        "synonyms": [
+            "jogger",
+            "joggers",
+            "pyjama",
+            "lower",
+            "lowers",
+            "pyjamas"
+        ]
+    },
+    {
+        "objectID": "syn-50",
+        "type": "synonym",
+        "synonyms": [
+            "play gym",
+            "playgym",
+            "infant gym",
+            "infantgym",
+            "play gyms",
+            "playgyms",
+            "infant gyms",
+            "infantgyms"
+        ]
+    },
+    {
+        "objectID": "syn-51",
+        "type": "synonym",
+        "synonyms": [
+            "romper",
+            "onesie",
+            "jumper",
+            "rompers",
+            "onesies",
+            "jumpers"
+        ]
+    },
+    {
+        "objectID": "syn-52",
+        "type": "synonym",
+        "synonyms": [
+            "johnson's baby",
+            "johnsons baby",
+            "johnson baby",
+            "johnson s"
+        ]
+    }
+]
