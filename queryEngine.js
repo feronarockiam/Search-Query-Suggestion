@@ -18,12 +18,14 @@ const {
     ALGOLIA_APP_ID,
     ALGOLIA_API_KEY,
     ALGOLIA_INDEX_NAME,
-    ALGOLIA_SUGGESTION_INDEX
+    ALGOLIA_SUGGESTION_INDEX,
+    SHOW_CONTEXTUAL
 } = {
     ALGOLIA_APP_ID: (process.env.ALGOLIA_APP_ID || '').trim(),
     ALGOLIA_API_KEY: (process.env.ALGOLIA_API_KEY || '').trim(),
     ALGOLIA_INDEX_NAME: (process.env.ALGOLIA_INDEX_NAME || '').trim(),
-    ALGOLIA_SUGGESTION_INDEX: (process.env.ALGOLIA_SUGGESTION_INDEX || '').trim()
+    ALGOLIA_SUGGESTION_INDEX: (process.env.ALGOLIA_SUGGESTION_INDEX || '').trim(),
+    SHOW_CONTEXTUAL: (process.env.SHOW_CONTEXTUAL || 'true').trim().toLowerCase() !== 'false'
 };
 
 const client = algoliasearch(ALGOLIA_APP_ID, ALGOLIA_API_KEY);
@@ -227,8 +229,16 @@ function scoreHit(hit, normalizedQuery) {
     const containsMatch = !prefixMatch && suggestion.includes(query);
     const brandMatch = brand && brand.startsWith(query);
 
+    // Exact word boundary checks to fix prefix pollution (e.g., "bat" matching "bath")
+    const queryWords = query.split(/\s+/);
+    const suggestionWords = suggestion.split(/\s+/);
+    const hasExactWordMatch = suggestionWords.some(w => queryWords.includes(w));
+    const hasBuriedPrefix = !hasExactWordMatch && suggestionWords.some(w => w.startsWith(query) && w !== query);
+
     return (exactMatch ? 1000 : 0) +
         (prefixMatch ? 500 : 0) +
+        (hasExactWordMatch && query.length <= 4 ? 600 : 0) +
+        (hasBuriedPrefix && query.length <= 4 ? -200 : 0) +
         (containsMatch ? 200 : 0) +
         (brandMatch ? 300 : 0) +
         ((hit.popularity_score || 0) * 0.01) +
@@ -405,7 +415,11 @@ async function query(rawQuery) {
         scored.unshift(exact);
     }
 
-    const suggestions = scored.slice(0, 8).map(({ hit, score }) =>
+    const finalScored = SHOW_CONTEXTUAL
+        ? scored
+        : scored.filter(({ hit }) => hit.type !== 'contextual');
+
+    const suggestions = finalScored.slice(0, 8).map(({ hit, score }) =>
         formatHit(hit, searchQuery, score)
     );
 

@@ -46,6 +46,13 @@ const MIN_COMBO_FREQ = 2;
 // Max brand_ptype combos need at least this many products
 const MIN_BRAND_PTYPE_PRODUCTS = 3;
 
+// Product types that should NEVER form a brand_ptype combination
+const BLOCKED_PRODUCT_TYPES = new Set([
+    'trouser', 'trousers', 'pant', 'pants', 'shirt', 'shirts',
+    't-shirt', 't-shirts', 'jean', 'jeans', 'short', 'shorts',
+    'legging', 'leggings', 'kurta', 'kurtas', 'dress', 'dresses'
+]);
+
 // ─── Stop Words (excluded from n-gram mining) ─────────────────────────────────
 
 const STOP_WORDS = new Set([
@@ -133,17 +140,6 @@ const soundex = s => {
         else if (!'aeiouyhw'.includes(char)) { last = null; }
     }
     return (f + r).padEnd(4, '0').slice(0, 4).toUpperCase();
-};
-
-const extractAttributes = name => {
-    const a = [];
-    const m = (r, k) => { const x = name?.match(r); if (x) a.push({ type: k, value: x[0] }); };
-    m(/\b(size\s?\d+|newborn|nb)\b/i, 'size');
-    m(/\b(stage\s?\d+|step\s?\d+)\b/i, 'stage');
-    m(/\b(\d+-\d+\s?kg)\b/i, 'weight');
-    m(/\b(\d+\s?pack|pack\s?of\s?\d+|\d+\s?pcs)\b/i, 'count');
-    m(/\b(premium|active|ultra|natural|organic|soft|gentle)\b/i, 'variant');
-    return a;
 };
 
 /**
@@ -274,11 +270,10 @@ async function generateRefinedSuggestions() {
                     // — Structured suggestions (unchanged from Phase 1) —
                     if (brand) addOrUpdate(brand, 'brand_only', { brand, category }, stock, image);
                     if (ptype) addOrUpdate(ptype, 'ptype_only', { ptype, category }, stock, image);
-                    if (brand && ptype) addOrUpdate(`${brand} ${ptype}`, 'brand_ptype', { brand, ptype, category, hasVariants }, stock, image);
 
-                    extractAttributes(name).forEach(attr => {
-                        if (brand) addOrUpdate(`${brand} ${attr.value}`, 'brand_attribute', { brand, category }, stock, image);
-                    });
+                    if (brand && ptype && !BLOCKED_PRODUCT_TYPES.has(ptype.toLowerCase())) {
+                        addOrUpdate(`${brand} ${ptype}`, 'brand_ptype', { brand, ptype, category, hasVariants }, stock, image);
+                    }
 
                     // — N-gram accumulation —
                     const nameText = cleanText(name + ' ' + desc);
@@ -393,6 +388,13 @@ async function generateRefinedSuggestions() {
         if (!kw || !pt || kw === pt) continue;
         if (brandNamesLower.has(kw)) continue;
         if (!ngramFreq.has(kw) || (ngramFreq.get(kw) < MIN_NGRAM_FREQ)) continue;
+
+        // Prevent plural duplication: if "pens" + "pen" => skip
+        const kwStem = kw.replace(/s$/, '');
+        const ptStem = pt.replace(/s$/, '');
+        if (kwStem === ptStem || kw === pt || pt === kw + 's' || kw === pt + 's') {
+            continue;
+        }
 
         const combo = `${kw} ${pt}`;
         if (combo.length > 30) continue;
