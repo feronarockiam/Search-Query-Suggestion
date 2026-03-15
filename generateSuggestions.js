@@ -399,9 +399,13 @@ async function generateRefinedSuggestions() {
         // Prevent plural duplication: if "pens" + "pen" => skip
         const kwStem = kw.replace(/s$/, '');
         const ptStem = pt.replace(/s$/, '');
-        if (kwStem === ptStem || kw === pt || pt === kw + 's' || kw === pt + 's') {
-            continue;
-        }
+        if (kwStem === ptStem || kw === pt || pt === kw + 's' || kw === pt + 's') continue;
+
+        // Prevent substring duplication: if "gift" + "gift set" => "gift gift set"
+        const kwTokens = kw.split(' ');
+        const ptTokens = pt.split(' ');
+        const hasOverlap = kwTokens.some(w => ptTokens.includes(w) || ptTokens.includes(w + 's') || ptTokens.includes(w.replace(/s$/, '')));
+        if (hasOverlap) continue;
 
         const combo = `${kw} ${pt}`;
         if (combo.length > 30) continue;
