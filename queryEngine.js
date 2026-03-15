@@ -246,8 +246,7 @@ function scoreHit(hit, normalizedQuery) {
         (containsMatch ? 200 : 0) +
         (brandMatch ? 300 : 0) +
         ((hit.popularity_score || 0) * 0.01) +
-        ((hit.product_count || 0) * 2) -
-        (suggestion.length * 3) +
+        ((hit.product_count || 0) * 2) +
         // Contextual extension suggestions (e.g. "sleeveless for boys") get
         // a boost when they extend the exact query — surfaces Amazon-style refinements
         (['contextual', 'keyword_combo'].includes(hit.type) && suggestion.startsWith(query) ? 400 : 0);
