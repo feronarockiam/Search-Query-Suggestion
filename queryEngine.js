@@ -210,33 +210,42 @@ function buildSearchParams(normalizedQuery, mode = 'default') {
 // ─── Scoring ─────────────────────────────────────────────────────────────────
 
 /**
+ * Lightweight brand-aware stemming.
+ * Strips trailing 's' unless it's a known brand (e.g., Huggies, Pampers).
+ */
+function stem(word) {
+    if (!word || word.length <= 3) return word;
+    // Check if the word is a known brand or canonical term to protect it
+    if (brandNames.has(word) || canonicalTerms.has(word)) return word;
+    return word.endsWith('s') ? word.slice(0, -1) : word;
+}
+
+/**
  * Client-side score layered on top of Algolia's ranking.
  * Exact match always wins regardless of other signals.
- *
- * score = (exact_match ? 1000 : 0) +
- *         (prefix_match ? 500 : 0) +
- *         (contains_match ? 200 : 0) +
- *         (brand_match ? 300 : 0) +
- *         (popularity_score * 0.01) +
- *         (product_count * 2) -
- *         (text_length * 3)
  */
 function scoreHit(hit, normalizedQuery) {
     const suggestion = (hit.suggestion || '').toLowerCase();
     const query = normalizedQuery.toLowerCase();
     const brand = (hit.brand_name || '').toLowerCase();
 
-    const exactMatch = suggestion === query;
-    const prefixMatch = suggestion.startsWith(query);
-    const containsMatch = !prefixMatch && suggestion.includes(query);
-    const brandMatch = brand && brand.startsWith(query);
+    // Stemming for singular/plural interchangeability (car vs cars)
+    const qWords = query.split(/\s+/);
+    const sWords = suggestion.split(/\s+/);
+    const qStemmedWords = qWords.map(stem);
+    const sStemmedWords = sWords.map(stem);
+    const qStemmed = qStemmedWords.join(' ');
+    const sStemmed = sStemmedWords.join(' ');
+
+    const exactMatch = sStemmed === qStemmed;
+    const prefixMatch = sStemmed.startsWith(qStemmed);
+    const containsMatch = !prefixMatch && sStemmed.includes(qStemmed);
+    const brandMatch = brand && brand.toLowerCase().startsWith(qStemmed);
 
     // Exact word boundary checks to fix prefix pollution (e.g., "bat" matching "bath")
-    const queryWords = query.split(/\s+/);
-    const suggestionWords = suggestion.split(/\s+/);
-    const hasExactWordMatch = suggestionWords.some(w => queryWords.includes(w));
-    const isPrefixOfWord = !hasExactWordMatch && suggestionWords.some(w => w.startsWith(query) && w !== query);
-    const isSubstringOfWord = !hasExactWordMatch && !isPrefixOfWord && suggestion.includes(query);
+    const hasExactWordMatch = sStemmedWords.some(w => qStemmedWords.includes(w));
+    const isPrefixOfWord = !hasExactWordMatch && sStemmedWords.some(w => w.startsWith(qStemmed) && w !== qStemmed);
+    const isSubstringOfWord = !hasExactWordMatch && !isPrefixOfWord && sStemmed.includes(qStemmed);
 
     return (exactMatch ? 10000 : 0) +
         (prefixMatch ? 500 : 0) +
