@@ -148,15 +148,24 @@ const soundex = s => {
  */
 function tokenizeName(name) {
     if (!name) return [];
-    return name
-        .toLowerCase()
-        .replace(/[^a-z0-9\s]/g, ' ')   // strip punctuation
-        .split(/\s+/)
-        .filter(w => (
-            w.length >= 4 &&
-            !STOP_WORDS.has(w) &&
-            !/^\d+$/.test(w)              // skip pure numbers
-        ));
+    const rawWords = name.toLowerCase().replace(/[^a-z0-9\s]/g, ' ').split(/\s+/);
+
+    const validWords = [];
+    const tokens = [];
+
+    for (const w of rawWords) {
+        if (w.length >= 3 && !STOP_WORDS.has(w) && !/^\d+$/.test(w)) {
+            validWords.push(w);
+            if (w.length >= 4) tokens.push(w); // 1-grams (min length 4)
+        }
+    }
+
+    // Bi-grams (2-word phrases like "hot wheels")
+    for (let i = 0; i < validWords.length - 1; i++) {
+        tokens.push(`${validWords[i]} ${validWords[i + 1]}`);
+    }
+
+    return tokens;
 }
 
 /**
