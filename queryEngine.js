@@ -19,13 +19,15 @@ const {
     ALGOLIA_API_KEY,
     ALGOLIA_INDEX_NAME,
     ALGOLIA_SUGGESTION_INDEX,
-    SHOW_CONTEXTUAL
+    SHOW_CONTEXTUAL,
+    MAX_SAME_PTYPE
 } = {
     ALGOLIA_APP_ID: (process.env.ALGOLIA_APP_ID || '').trim(),
     ALGOLIA_API_KEY: (process.env.ALGOLIA_API_KEY || '').trim(),
     ALGOLIA_INDEX_NAME: (process.env.ALGOLIA_INDEX_NAME || '').trim(),
     ALGOLIA_SUGGESTION_INDEX: (process.env.ALGOLIA_SUGGESTION_INDEX || '').trim(),
-    SHOW_CONTEXTUAL: (process.env.SHOW_CONTEXTUAL || 'true').trim().toLowerCase() !== 'false'
+    SHOW_CONTEXTUAL: (process.env.SHOW_CONTEXTUAL || 'true').trim().toLowerCase() !== 'false',
+    MAX_SAME_PTYPE: parseInt(process.env.MAX_SAME_PTYPE || '2', 10)
 };
 
 const client = algoliasearch(ALGOLIA_APP_ID, ALGOLIA_API_KEY);
@@ -419,7 +421,36 @@ async function query(rawQuery) {
         ? scored
         : scored.filter(({ hit }) => hit.type !== 'contextual');
 
-    const suggestions = finalScored.slice(0, 8).map(({ hit, score }) =>
+    // --- Dynamic Intent Diversification ---
+    // If the query is 1 word (broad exploratory search), we enforce diversity
+    // by capping how many suggestions can share the exact same product_type.
+    const isBroadIntent = !searchQuery.includes(' ');
+
+    let diverseScored = [];
+    if (isBroadIntent) {
+        const ptypeCounts = {};
+        for (const item of finalScored) {
+            const pt = item.hit.product_type;
+            if (pt) {
+                const ptLower = pt.toLowerCase();
+                const qLower = searchQuery.toLowerCase();
+                const isExactPtypeMatch = ptLower === qLower || ptLower + 's' === qLower || ptLower === qLower + 's';
+
+                if (!isExactPtypeMatch) {
+                    ptypeCounts[pt] = (ptypeCounts[pt] || 0) + 1;
+                    if (ptypeCounts[pt] > MAX_SAME_PTYPE) {
+                        continue; // Skip this item to allow other ptypes to surface
+                    }
+                }
+            }
+            diverseScored.push(item);
+        }
+    } else {
+        // Specific intent (multi-word): User knows what they want, no artificial limits
+        diverseScored = finalScored;
+    }
+
+    const suggestions = diverseScored.slice(0, 8).map(({ hit, score }) =>
         formatHit(hit, searchQuery, score)
     );
 
