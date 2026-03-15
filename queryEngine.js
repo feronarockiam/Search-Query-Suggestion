@@ -186,7 +186,7 @@ function editDistance(a, b) {
 function buildSearchParams(normalizedQuery, mode = 'default') {
     const len = normalizedQuery.length;
     const base = {
-        hitsPerPage: 20,
+        hitsPerPage: 250, // Fetch an even larger pool to capture long-tail product combos
         attributesToRetrieve: ['suggestion', 'type', 'brand_name', 'product_type', 'popularity_score', 'product_count', 'representative_image', '_highlightResult'],
         attributesToHighlight: ['suggestion'],
         highlightPreTag: '<b>',
@@ -304,9 +304,9 @@ function scoreHit(hit, normalizedQuery, isBrandQuery = false) {
         ((hit.popularity_score || 0) * 0.01) +
         ((hit.product_count || 0) * 2) +
         typePriority +
-        // Contextual extension suggestions (e.g. "sleeveless for boys") get
-        // a boost when they extend the exact query — surfaces Amazon-style refinements
-        (['contextual', 'keyword_combo'].includes(hit.type) && suggestion.startsWith(query) ? 400 : 0);
+        // Contextual extension suggestions (e.g. "diaper rash cream") get
+        // a massive boost when they extend the exact query - surfaces valuable product combos
+        (['contextual', 'keyword_combo'].includes(hit.type) && suggestion.startsWith(query) ? 2500 : 0);
 }
 
 // ─── Format Result ────────────────────────────────────────────────────────────
@@ -490,8 +490,18 @@ async function query(rawQuery) {
     let diverseScored = [];
     if (isBroadIntent) {
         const ptypeCounts = {};
+        let brandPtypeCount = 0;
+
         for (const item of finalScored) {
             const pt = item.hit.product_type;
+            const type = item.hit.type;
+
+            // Rule: Limit Brand-PType combos to 2 max for broad queries
+            if (type === 'brand_ptype') {
+                brandPtypeCount++;
+                if (brandPtypeCount > 2) continue;
+            }
+
             if (pt) {
                 const ptLower = pt.toLowerCase();
                 const qLower = searchQuery.toLowerCase();
@@ -513,12 +523,20 @@ async function query(rawQuery) {
 
     // --- Two-Pass Keyword Padding ---
     // Pass 1: Collect only high-priority types (brand, ptype, category, contextual, fallback)
-    // Pass 2: Pad up to 7 with keyword / keyword_combo if needed
+    //         AND highly-relevant keywords (score > 1000, meaning they match query tokens well)
+    // Pass 2: Pad up to 7 with lower-relevance keyword / keyword_combo if needed
     const KEYWORD_TYPES = new Set(['keyword', 'keyword_combo']);
     const TARGET_COUNT = 7;
 
-    const primaryResults = diverseScored.filter(({ hit }) => !KEYWORD_TYPES.has(hit.type));
-    const keywordResults = diverseScored.filter(({ hit }) => KEYWORD_TYPES.has(hit.type));
+    const primaryResults = diverseScored.filter(({ hit, score }) => {
+        if (!KEYWORD_TYPES.has(hit.type)) return true;
+        // Promote keyword if it's highly relevant (score over 5000 usually means it contains query word)
+        return score >= 5000;
+    });
+
+    const keywordResults = diverseScored.filter(({ hit, score }) => {
+        return KEYWORD_TYPES.has(hit.type) && score < 5000;
+    });
 
     const slots = Math.min(TARGET_COUNT, diverseScored.length);
     const primary = primaryResults.slice(0, slots);
@@ -569,5 +587,6 @@ function debouncedQuery(rawQuery, onResult, rapid = false) {
 module.exports = {
     query,
     debouncedQuery,
-    normalizeQuery
+    normalizeQuery,
+    scoreHit
 };
