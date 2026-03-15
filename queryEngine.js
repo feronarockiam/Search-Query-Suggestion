@@ -85,6 +85,16 @@ try {
 // ─── Query Normalization ──────────────────────────────────────────────────────
 
 /**
+ * Lightweight brand-aware stemming.
+ * Strips trailing 's' unless it's a known brand (e.g., Huggies, Pampers).
+ */
+function stem(word) {
+    if (!word || word.length <= 3) return word;
+    if (brandNames.has(word) || canonicalTerms.has(word)) return word;
+    return word.endsWith('s') ? word.slice(0, -1) : word;
+}
+
+/**
  * normalizeQuery: clean, synonym-expand, and optionally fuzzy-resolve brand.
  * Returns { query: string, isTrailingSpace: bool, resolvedBrand: string|null }
  */
@@ -106,6 +116,18 @@ function normalizeQuery(raw) {
     const resolved = resolveMultiWordBrand(q);
     if (resolved) {
         return { query: resolved.toLowerCase(), isTrailingSpace, resolvedBrand: resolved };
+    }
+
+    // Stem each word in the query so "cars" → "car", "diapers" → "diaper"
+    // but protect known brands and canonical terms (Huggies stays Huggies)
+    // Only stem the LAST word if query is single-word (avoids over-stemming "car seat")
+    const words = q.split(' ');
+    if (words.length === 1) {
+        const stemmed = stem(words[0]);
+        if (stemmed !== words[0]) {
+            // Store original for scoring but send stemmed to Algolia
+            return { query: stemmed, originalQuery: q, isTrailingSpace, resolvedBrand: null };
+        }
     }
 
     return { query: q, isTrailingSpace, resolvedBrand: null };
@@ -208,17 +230,6 @@ function buildSearchParams(normalizedQuery, mode = 'default') {
 }
 
 // ─── Scoring ─────────────────────────────────────────────────────────────────
-
-/**
- * Lightweight brand-aware stemming.
- * Strips trailing 's' unless it's a known brand (e.g., Huggies, Pampers).
- */
-function stem(word) {
-    if (!word || word.length <= 3) return word;
-    // Check if the word is a known brand or canonical term to protect it
-    if (brandNames.has(word) || canonicalTerms.has(word)) return word;
-    return word.endsWith('s') ? word.slice(0, -1) : word;
-}
 
 /**
  * Client-side score layered on top of Algolia's ranking.
