@@ -235,12 +235,14 @@ function scoreHit(hit, normalizedQuery) {
     const queryWords = query.split(/\s+/);
     const suggestionWords = suggestion.split(/\s+/);
     const hasExactWordMatch = suggestionWords.some(w => queryWords.includes(w));
-    const hasBuriedPrefix = !hasExactWordMatch && suggestionWords.some(w => w.startsWith(query) && w !== query);
+    const isPrefixOfWord = !hasExactWordMatch && suggestionWords.some(w => w.startsWith(query) && w !== query);
+    const isSubstringOfWord = !hasExactWordMatch && !isPrefixOfWord && suggestion.includes(query);
 
-    return (exactMatch ? 1000 : 0) +
+    return (exactMatch ? 10000 : 0) +
         (prefixMatch ? 500 : 0) +
-        (hasExactWordMatch && query.length <= 4 ? 600 : 0) +
-        (hasBuriedPrefix && query.length <= 4 ? -200 : 0) +
+        (hasExactWordMatch ? 5000 : 0) +
+        (!hasExactWordMatch && query.length <= 4 && isPrefixOfWord ? -2000 : 0) +
+        (!hasExactWordMatch && query.length <= 4 && isSubstringOfWord ? -5000 : 0) +
         (containsMatch ? 200 : 0) +
         (brandMatch ? 300 : 0) +
         ((hit.popularity_score || 0) * 0.01) +
