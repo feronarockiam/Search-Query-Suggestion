@@ -255,6 +255,8 @@ async function generateRefinedSuggestions() {
                     const name = (product.name || '');
                     const desc = (product.description || '');
                     const category = product.category_name;
+                    const subcategory = product.subcategory_name;
+                    const subsubcategory = product.subsubcategory_name;
 
                     const stock = (product.variants || []).reduce(
                         (sum, v) => sum + (v.available_stock || 0),
@@ -265,11 +267,16 @@ async function generateRefinedSuggestions() {
                     const rawImage = product.image || (product.variants?.[0]?.image);
                     const image = rawImage ? (rawImage.startsWith('http') ? rawImage : `https://d14xdfvauagpvz.cloudfront.net/product/${rawImage}`) : null;
 
-                    allProducts.push({ brand, ptype, name, desc, stock, image, category, hasVariants });
+                    allProducts.push({ brand, ptype, name, desc, stock, image, category, subcategory, subsubcategory, hasVariants });
 
                     // — Structured suggestions (unchanged from Phase 1) —
                     if (brand) addOrUpdate(brand, 'brand_only', { brand, category }, stock, image);
                     if (ptype) addOrUpdate(ptype, 'ptype_only', { ptype, category }, stock, image);
+
+                    // NEW: Category Hierarchy
+                    if (category) addOrUpdate(category, 'category_only', { category }, stock, image);
+                    if (subcategory && subcategory !== category) addOrUpdate(subcategory, 'category_only', { category: subcategory }, stock, image);
+                    if (subsubcategory && subsubcategory !== subcategory && subsubcategory !== category) addOrUpdate(subsubcategory, 'category_only', { category: subsubcategory }, stock, image);
 
                     if (brand && ptype && !BLOCKED_PRODUCT_TYPES.has(ptype.toLowerCase())) {
                         addOrUpdate(`${brand} ${ptype}`, 'brand_ptype', { brand, ptype, category, hasVariants }, stock, image);
@@ -441,6 +448,7 @@ async function generateRefinedSuggestions() {
     const basePriorities = {
         brand_only: 10,
         ptype_only: 9,
+        category_only: 8.8,
         contextual: 8.5,
         brand_attribute: 8,
         brand_ptype: 7,
