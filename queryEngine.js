@@ -232,17 +232,18 @@ function buildSearchParams(normalizedQuery, mode = 'default') {
 // ─── Scoring ─────────────────────────────────────────────────────────────────
 
 /**
- * Type-priority bonus: ensures structured suggestions always rank above
- * exploratory keyword suggestions, regardless of popularity or text score.
+ * Type-priority bonus tables.
  *
- * Tier 1 — Structured & Branded (highest): brand, ptype_only, brand_ptype
- * Tier 2 — Discovery (medium):             category_only, contextual
- * Tier 3 — Exploratory (lowest):           keyword, keyword_combo, live_fallback
+ * NON-BRAND query (e.g. "diaper", "car seat"):
+ *   ptype_only > brand_ptype -> surfaces "diaper rash cream", "diaper bag" before "Huggies diaper"
+ *
+ * BRAND query (e.g. "huggies", "mattel"):
+ *   brand_only > brand_ptype -> surfaces the brand itself then brand+product combos
  */
-const TYPE_PRIORITY_BONUS = {
+const TYPE_BONUS_GENERIC = {
+    ptype_only: 3500,
     brand_only: 3000,
-    brand_ptype: 2500,
-    ptype_only: 2000,
+    brand_ptype: 2000,
     category_only: 1000,
     contextual: 500,
     keyword: 0,
@@ -250,7 +251,23 @@ const TYPE_PRIORITY_BONUS = {
     live_fallback: 0,
 };
 
-function scoreHit(hit, normalizedQuery) {
+const TYPE_BONUS_BRAND = {
+    brand_only: 3500,
+    brand_ptype: 3000,
+    ptype_only: 1500,
+    category_only: 800,
+    contextual: 400,
+    keyword: 0,
+    keyword_combo: 0,
+    live_fallback: 0,
+};
+
+
+/**
+ * Compute client-side score for a single hit.
+ * @param {boolean} isBrandQuery - true when query matches a known brand
+ */
+function scoreHit(hit, normalizedQuery, isBrandQuery = false) {
     const suggestion = (hit.suggestion || '').toLowerCase();
     const query = normalizedQuery.toLowerCase();
     const brand = (hit.brand_name || '').toLowerCase();
@@ -273,8 +290,9 @@ function scoreHit(hit, normalizedQuery) {
     const isPrefixOfWord = !hasExactWordMatch && sStemmedWords.some(w => w.startsWith(qStemmed) && w !== qStemmed);
     const isSubstringOfWord = !hasExactWordMatch && !isPrefixOfWord && sStemmed.includes(qStemmed);
 
-    // Type-based priority bonus (keeps structure above exploration)
-    const typePriority = TYPE_PRIORITY_BONUS[hit.type] ?? 0;
+    // Choose the right bonus table based on query intent
+    const bonusTable = isBrandQuery ? TYPE_BONUS_BRAND : TYPE_BONUS_GENERIC;
+    const typePriority = bonusTable[hit.type] ?? 0;
 
     return (exactMatch ? 10000 : 0) +
         (prefixMatch ? 500 : 0) +
@@ -443,9 +461,12 @@ async function query(rawQuery) {
 
     const hits = await fetchSuggestions(searchQuery, isTrailingSpace);
 
+    // Identify if the query itself is a brand name to adjust type priority
+    const isBrandQuery = !!resolvedBrand || brandNames.has(searchQuery.toLowerCase());
+
     // Score and sort using the original normalizedQuery for accuracy
     const scored = hits
-        .map(hit => ({ hit, score: scoreHit(hit, searchQuery) }))
+        .map(hit => ({ hit, score: scoreHit(hit, searchQuery, isBrandQuery) }))
         .sort((a, b) => b.score - a.score);
 
     // Exact match guarantee
