@@ -413,12 +413,7 @@ async function query(rawQuery) {
         suggestions,
         query: rawQuery.trim(),
         count: suggestions.length,
-        latency_ms: Date.now() - startTime,
-        debug: {
-            suggestion_index: ALGOLIA_SUGGESTION_INDEX,
-            product_index: ALGOLIA_INDEX_NAME,
-            suggestion_hits: hits.length
-        }
+        latency_ms: Date.now() - startTime
     };
 }
 
